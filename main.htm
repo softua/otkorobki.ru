@@ -1,0 +1,1189 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+		"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru" lang="ru">
+<head>
+
+	<meta charset="UTF-8" />
+	<meta http-equiv="Content-Language" content="ru" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<link rel="stylesheet" media="all" href="/all.css" />
+	<link rel="stylesheet" href="/common.css" />
+	<link rel="shortcut icon" type="image/x-icon" href="/images/favicon.png" />
+	<title>Уникальный сервис для дистрибьюторов, производителей и поставщиков – продукты питания оптом в Москве и по всей России </title>
+	<meta name="keywords" content="Уникальный сервис для дистрибьюторов, производителей и поставщиков – продукты питания оптом в Москве и по всей России "/>
+	<meta name="description" content="Мастер оптовых заказов OTKOROBKI – продукты крупным и мелким оптом. Здесь вы найдете лучшие предложения от поставщиков и оптовых баз продуктов питания. Следите за акциями и распродажами, покупайте на выгодных условиях от 1 коробки "/>
+	<script type="text/javascript" language="javascript" src="/Main2/Main2.nocache.js"></script>
+	<script type="text/javascript" src="//maps.googleapis.com/maps/api/js?key=AIzaSyCk0ztlcn7ERsnB6HgCD93mv74CDM2-vjs&sensor=false"></script>
+	<script type="text/javascript" language="javascript" src="/main.js"></script>
+	<!--  <script type="text/javascript" language="javascript" src="/form.js"></script>
+	 <script type="text/javascript" language="javascript" src="/clear-input.js"></script> -->
+
+	<!-- Yandex.Metrika counter -->
+	<noscript><div><img src="//mc.yandex.ru/watch/20300818" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+	<!-- /Yandex.Metrika counter -->
+
+	<script type="text/javascript">
+		yandexMetrics(document, window, "yandex_metrika_callbacks");
+
+		<!-- Google Analytics -->
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+				m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		ga('create', 'UA-37893457-1');  // Replace with your property ID.
+		ga('send', 'pageview');
+
+		<!-- End Google Analytics -->
+	</script>
+</head>
+<body>
+<div class="w1">
+<a name="back-top"></a>
+<div id="header">
+	<div class="container">
+		<div class="user-tools">
+			<div class="login">
+
+				<a onclick="setVisible('login-popup', true);"><span>Войти</span></a>
+				<a onclick="window.showRegistrationPopup(event.clientX, event.clientY);"><span>Зарегистрироваться</span></a>
+
+				<div class="popup welcome-popup" id="welcome-popup" style="display:none;">
+					<img class="ok" src="/images/bg-ok.png" alt="" width="114" height="114"/>
+					<span class="congratulations">Поздравляем!</span>
+					<p>Регистрация на сайте прошла успешно! <br/> Мы очень рады, что выбрали и надеемся он вам очень понравится!</p>
+					<a href="#" class="btn-thanks">Спасибо!</a>
+					<ul class="social-network">
+						<li><a href="https://oauth.yandex.ru/authorize?response_type=code&client_id=6385a04b8c56498ba1c1e3540bcca367"><img src="/images/ico-yandex.png" alt="" width="47" height="40"/></a></li>
+						<li><a href="https://connect.mail.ru/oauth/authorize?client_id=709810&response_type=code&redirect_uri=https://otkorobki.ru/oauth2mailru.htm"><img src="/images/ico-email.png" alt="" width="47" height="40"/></a></li>
+						<li><a href="https://accounts.google.com/o/oauth2/auth?
+												scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile&
+												state=%2Fprofile&
+												redirect_uri=https://otkorobki.ru/oauth2google.htm&
+												response_type=code&
+												client_id=763181511428.apps.googleusercontent.com"><img src="/images/ico-google.png" alt="" width="47" height="40"/></a></li>
+					</ul>
+					<a onclick="location.reload();" class="btn-close">Закрыть</a>
+					<span class="arrow"></span>
+				</div>
+
+			</div>
+
+			<div class="city"><span>Ваш город:</span> <a onclick="window.showTownsPopup(event.clientX, event.clientY);" title="Рязань">
+				Рязань
+
+			</a></div>
+			<form class="form-search" action="/search.htm" method="get" id="search-form">
+				<fieldset class=" ">
+					<input class="text " type="text" name="query" placeholder="Найти товары по оптовым ценам" value=""/>
+					<input type="hidden" name="store" id="store_id" value="0"/>
+					<div class="drop-list drop-2 search-drop" onclick="setVisible('stores-popup', true);">
+						<a>Выбрать поставщика</a>
+					</div>
+					<input type="submit" class="btn-search" value="Поиск"/>
+				</fieldset>
+			</form>
+			<div class="cart"><span>Ваша корзина:</span>
+				<a id="cart-link">Пуста</a><span id="cart-count" class="number" style="display:none">0</span>
+
+
+
+			</div>
+
+			<div class="popup login-popup" id="login-popup">
+				<strong class="title">Добро пожаловать на сайт:</strong>
+				<form class="login-form" action='j_spring_security_check' method='post'>
+					<fieldset>
+						<div class="block-left">
+							<p>Для совершения покупок войдите используя <br/> свой логин и пароль</p>
+							<div class="text"><input name='j_username' type="text" placeholder="Логин" /></div>
+							<div class="text"><input type='password' name='j_password' placeholder="Пароль"/></div>
+							<input type="hidden" name="_spring_security_remember_me" value="on"/>
+							<a href="/p_recovery.htm" class="forgot-password">Забыли пароль</a>
+							<input type="submit" class="btn-submit" value="Приступить к покупкам"/>
+							<a onclick="window.showRegistrationPopup(getX(getElementById('login-popup')), getY(getElementById('login-popup'))); setVisible('login-popup', false);" class="btn-registration">Регистрация на сайте</a>
+						</div>
+						<div class="block-right">
+							<p>Вы можете начать покупки, используя свой логин в сети:</p>
+							<a class="btn-social" href="https://oauth.yandex.ru/authorize?response_type=code&client_id=6385a04b8c56498ba1c1e3540bcca367"><img src="/images/login-yandex.png" alt="" width="97" height="40"/></a>
+							<a class="btn-social" href="https://connect.mail.ru/oauth/authorize?client_id=709810&response_type=code&redirect_uri=https://otkorobki.ru/oauth2mailru.htm"><img src="/images/login-mail.png" alt="" width="97" height="40"/></a>
+							<a class="btn-social" href="https://accounts.google.com/o/oauth2/auth?
+												scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile&
+												state=%2Fprofile&
+												redirect_uri=https://otkorobki.ru/oauth2google.htm&
+												response_type=code&
+												client_id=763181511428.apps.googleusercontent.com"><img src="/images/login-google.png" alt="" width="97" height="40"/></a>
+						</div>
+					</fieldset>
+				</form>
+				<a onclick="setVisible('login-popup', false);" class="btn-close">Закрыть</a>
+				<span class="arrow"></span>
+			</div>
+
+			<div class="popup login-popup search-popup" id="stores-popup">
+				<strong class="title">Все поставщики региона Рязанская область</strong>
+				<div class="login-form">
+					<fieldset>
+
+						<div class="block">
+							<strong>Кондитерские изделия:</strong>
+
+							<input id="check-25480" type="checkbox" onclick="selectSearchStore(25480);"/>
+							<label for="check-25480"><a href="/s/ooo__yunion_.htm">ООО "Юнион"</a></label>
+
+						</div>
+
+						<div style="float:left; width:100%;">
+							<input type="button" class="btn-search" value="Искать по выбранному поставщику" onclick="getElementById('search-form').submit();"/>
+							<input type="button" class="btn-search" style="margin-left:20px" value="Искать по всем поставщикам" onclick="selectSearchStore(0); getElementById('search-form').submit();"/>
+						</div>
+					</fieldset>
+				</div>
+				<a onclick="setVisible('stores-popup', false);" class="btn-close">Закрыть</a>
+				<span class="arrow"></span>
+			</div>
+
+		</div>
+		<strong class="logo"><a href="/">От коробки Мастер отптовых заказов</a></strong>
+		<ul class="add-nav">
+			<li><a class="item-1" href="/welcome-b.htm">Покупайте у производителей <span>без наценок магазинов</span></a></li>
+			<li class="second-child"><a class="item-2" href="/welcome-b.htm">Самовывоз и доставка <span>со складов по всей России</span></a></li>
+			<li><a class="item-3" href="/welcome-b.htm">Специальные условия <span>для профессионалов</span></a></li>
+			<li class="last-child">
+				<span class="phones">8 (800) <b>333 50 98</b><br/></span><br/>
+				<span class="sub-info">Ждем звонки<br/>с 9.00 до 20.00</span>
+			</li>
+		</ul>
+
+	</div>
+</div>
+
+
+
+<div id="wrapper">
+<div id="content" class="content-block">
+	<div class="slider">
+		<div class="slider-holder">
+			<div class="slider-item" id="sliderItem1">
+				<div class="leftvideo"><div id="stores-player"></div></div>
+				<div class="righttext"><span class="highlighted">Вы совершаете покупки для семьи или офиса, руководите снабжением магазина, кафе, отеля - Мастер оптовых заказов
+										Откоробки.ру для вас!</span>
+					<br/><br/><span>Заказывайте продукты там же, где их покупают супермаркеты и гипермаркеты! Выберите удобного поставщика и делайте заказы от ОДНОЙ коробки!</span>
+
+					<div class="description-more">
+						<a href="welcome-b.htm" class="btn-more2">Подробнее</a>
+					</div>
+				</div>
+				<script>
+					var tag = document.createElement('script');
+
+					tag.src = "https://www.youtube.com/iframe_api";
+					var firstScriptTag = document.getElementsByTagName('script')[0];
+					firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+					// 3. This function creates an <iframe> (and YouTube player)
+					//    after the API code downloads.
+					var player;
+					function onYouTubeIframeAPIReady() {
+						player = new YT.Player('stores-player', {
+							height: '301',
+							width: '510',
+							videoId: 'EYNKqRuJl1I',
+							playerVars: {'rel': 0},
+							events: {
+								'onStateChange': onPlayerStateChange
+							}
+						});
+					}
+
+					function onPlayerReady(event) {
+						event.target.playVideo();
+					}
+
+					var videoPlaying = false;
+					function onPlayerStateChange(event) {
+						if (event.data == YT.PlayerState.PLAYING) {
+							videoPlaying = true;
+						}
+					}
+					function stopVideo() {
+						player.stopVideo();
+						videoPlaying = false;
+					}
+				</script>
+			</div>
+			<div class="slider-item" id="sliderItem2" style="display:none;">
+				<img src="images/img-2.jpg" alt="" width="745" height="301">
+				<div class="description">
+					<span>Попробуй наши цены</span>
+					<strong>На вкус</strong>
+					<a href="/m/konditerskaya_fabrika__lamzur_.htm" class="btn-more">подробнее</a>
+				</div>
+			</div>
+			<div class="slider-item" id="sliderItem3" style="display:none;">
+				<a href="/m/nevskij_konditer.htm"><img src="images/banner_nevskiy.gif" alt="" width="745" height="301"></a>
+			</div>
+		</div>
+		<ul class="pagination-slider">
+			<li id="sliderLink1" class="active"><a onclick="switchSliderItem(1);stopVideo();">1</a></li>
+			<li id="sliderLink2"><a onclick="switchSliderItem(2); stopVideo();">2</a></li>
+			<li id="sliderLink3"><a onclick="switchSliderItem(3); stopVideo();">3</a></li>
+		</ul>
+	</div>
+</div>
+<div id="sidebar">
+	<div class="box" id="categoriesMenu">
+		<ul class="nav nav-3">
+
+			<li onmouseover="showPanelAndHidePrev('category-drop-down-7844', true);false;" ><a href="/cat/konditerskie_izdeliya.htm" >Кондитерские изделия</a>
+
+				<ul id="category-drop-down-7844" style="display:none;">
+
+					<li><a href="/cat/konfety.htm">Конфеты</a></li>
+
+					<li><a href="/cat/pechene.htm">Печенье</a></li>
+
+					<li><a href="/cat/pirozhnye__pirogi__vypechka.htm">Пирожные, пироги, выпечка</a></li>
+
+					<li><a href="/cat/torty.htm">Торты</a></li>
+
+					<li><a href="/cat/shokolad.htm">Шоколад</a></li>
+
+					<li><a href="/cat/keksy__rulety__kruassany.htm">Кексы, рулеты, круассаны</a></li>
+
+					<li><a href="/cat/vafli__pryaniki__kreker.htm">Вафли, пряники, крекер</a></li>
+
+					<li><a href="/cat/zefir__pastila__sufle.htm">Зефир, пастила, суфле</a></li>
+
+				</ul>
+
+
+			</li>
+
+			<li onmouseover="showPanelAndHidePrev('category-drop-down-7849', true);false;" ><a href="/cat/kosmetika__bytovaya_himiya.htm" class="no-children">Косметика, бытовая химия</a>
+
+
+				<ul id="category-drop-down-7849" style="display:none;">
+					В вашем регионе нет поставщиков товаров данной категории
+				</ul>
+
+			</li>
+
+			<li onmouseover="showPanelAndHidePrev('category-drop-down-157', true);false;" ><a href="/cat/konservatsiya.htm" class="no-children">Консервация</a>
+
+
+				<ul id="category-drop-down-157" style="display:none;">
+					В вашем регионе нет поставщиков товаров данной категории
+				</ul>
+
+			</li>
+
+			<li onmouseover="showPanelAndHidePrev('category-drop-down-173398', true);false;" ><a href="/cat/tovary_dlya_zhivotnyh.htm" class="no-children">Товары для животных</a>
+
+
+				<ul id="category-drop-down-173398" style="display:none;">
+					В вашем регионе нет поставщиков товаров данной категории
+				</ul>
+
+			</li>
+
+			<li onmouseover="showPanelAndHidePrev('category-drop-down-7848', true);false;" ><a href="/cat/voda__napitki__soki.htm" class="no-children">Вода, напитки, соки</a>
+
+
+				<ul id="category-drop-down-7848" style="display:none;">
+					В вашем регионе нет поставщиков товаров данной категории
+				</ul>
+
+			</li>
+
+			<li onmouseover="showPanelAndHidePrev('category-drop-down-127', true);false;" ><a href="/cat/molochnye_produkty__yajtsa.htm" class="no-children">Молочные продукты, яйца</a>
+
+
+				<ul id="category-drop-down-127" style="display:none;">
+					В вашем регионе нет поставщиков товаров данной категории
+				</ul>
+
+			</li>
+
+			<li onmouseover="showPanelAndHidePrev('category-drop-down-130', true);false;" ><a href="/cat/bakaleya.htm" class="no-children">Бакалея</a>
+
+
+				<ul id="category-drop-down-130" style="display:none;">
+					В вашем регионе нет поставщиков товаров данной категории
+				</ul>
+
+			</li>
+
+			<li onmouseover="showPanelAndHidePrev('category-drop-down-7845', true);false;" ><a href="/cat/ovoshi__frukty__zelen.htm" class="no-children">Овощи, фрукты, зелень</a>
+
+
+				<ul id="category-drop-down-7845" style="display:none;">
+					В вашем регионе нет поставщиков товаров данной категории
+				</ul>
+
+			</li>
+
+			<li onmouseover="showPanelAndHidePrev('category-drop-down-25498', true);false;" ><a href="/cat/chaj__kofe__kakao.htm" class="no-children">Чай, Кофе, Какао</a>
+
+
+				<ul id="category-drop-down-25498" style="display:none;">
+					В вашем регионе нет поставщиков товаров данной категории
+				</ul>
+
+			</li>
+
+			<li onmouseover="showPanelAndHidePrev('category-drop-down-87458', true);false;" ><a href="/cat/detskoe_pitanie.htm" class="no-children">Детское питание</a>
+
+
+				<ul id="category-drop-down-87458" style="display:none;">
+					В вашем регионе нет поставщиков товаров данной категории
+				</ul>
+
+			</li>
+
+			<li onmouseover="showPanelAndHidePrev('category-drop-down-7846', true);false;" ><a href="/cat/myaso__ryba__gastronomiya.htm" class="no-children">Мясо, рыба, гастрономия</a>
+
+
+				<ul id="category-drop-down-7846" style="display:none;">
+					В вашем регионе нет поставщиков товаров данной категории
+				</ul>
+
+			</li>
+
+			<li onmouseover="showPanelAndHidePrev('category-drop-down-47349', true);false;" ><a href="/cat/dieticheskie_produkty.htm" class="no-children">Диетические продукты</a>
+
+
+				<ul id="category-drop-down-47349" style="display:none;">
+					В вашем регионе нет поставщиков товаров данной категории
+				</ul>
+
+			</li>
+
+		</ul>
+	</div>
+	<script type="text/javascript">
+		document.getElementById('categoriesMenu').addEventListener('mouseout',onCategoriesMenuMouseOut,true);
+
+		window.currentSliderItem=1;
+		var myVar = setInterval(function(){
+
+			if (window.videoPlaying == undefined || window.videoPlaying == false) {
+				switchSliderItem(window.currentSliderItem + 1);
+			}
+
+		},10*1000);
+	</script>
+</div>
+</div>
+
+<div class="partners-block">
+	<div class="container">
+		<h3 class="heading">Наши партнеры: <!-- <a href="/mlist.htm" class="btn-all">все производители</a> --></h3>
+		<ul class="partners-list">
+
+			<li><a href="/m/milford.htm"><img src="/files/goods/47/47685/3529_preview.jpg" width="133px" height="100px"> </a></li>
+
+			<li><a href="/m/konditerskaya_fabrika__hlebnyj_spas_.htm"><img src="/files/goods/40/40823/3531_preview.jpg" width="133px" height="100px"> </a></li>
+
+			<li><a href="/m/kuhnya_bez_granits.htm"><img src="/files/goods/40/40318/3530_preview.jpg" width="133px" height="100px"> </a></li>
+
+			<li><a href="/m/nevskij_konditer.htm"><img src="/files/goods/38/38842/3528_preview.jpg" width="133px" height="100px"> </a></li>
+
+			<li><a href="/m/gruppa_kompanij__nmzhk_.htm"><img src="/files/goods/16/16302/3526_preview.jpg" width="133px" height="100px"> </a></li>
+
+			<li><a href="/m/haribo.htm"><img src="/files/goods/16/16135/3532_preview.jpg" width="133px" height="100px"> </a></li>
+
+			<li><a href="/m/kompaniya__konti_.htm"><img src="/files/goods/14/14695/3527_preview.jpg" width="133px" height="100px"> </a></li>
+
+		</ul>
+	</div>
+</div>
+
+
+<div class="last-updates">
+<div class="holder">
+<h3>Последние поступления:</h3>
+<div class="carousel">
+
+<ul class="frame" id="goods-list-1" >
+
+	<li>
+		<div class="image-holder"><a href="/g/tartaletki__biskonyik__klubnika.htm"> <img src="/files/goods/14/14869/560_preview.jpg" width="133px" height="100px"> </a></div>
+								<span class="product-name"><a href="/g/tartaletki__biskonyik__klubnika.htm">
+
+
+									Тарталетки &#034;BiSKontik&#034; клубника
+
+								</a></span>
+
+		<span class="price">От 141,78 р.</span>
+		<a href="/g/tartaletki__biskonyik__klubnika.htm" onclick="ga('send', 'Buy', 'main', 'Тарталетки &#034;BiSKontik&#034; клубника', 141,78);" class="new-button">Заказать</a>
+	</li>
+
+	<li>
+		<div class="image-holder"><a href="/g/vafelnyj_tort__mamulin_tort__s_orehom.htm"> <img src="/files/goods/15/15039/730_preview.jpg" width="133px" height="100px"> </a></div>
+								<span class="product-name"><a href="/g/vafelnyj_tort__mamulin_tort__s_orehom.htm">
+
+
+									Вафельный торт &#034;Мамулин торт&#034; с орехом
+
+								</a></span>
+
+		<span class="price">От 44,30 р.</span>
+		<a href="/g/vafelnyj_tort__mamulin_tort__s_orehom.htm" onclick="ga('send', 'Buy', 'main', 'Вафельный торт &#034;Мамулин торт&#034; с орехом', 44,30);" class="new-button">Заказать</a>
+	</li>
+
+	<li>
+		<div class="image-holder"><a href="/g/tartaletki__biskonyik__sgushennoe_moloko.htm"> <img src="/files/goods/14/14870/561_preview.jpg" width="133px" height="100px"> </a></div>
+								<span class="product-name"><a href="/g/tartaletki__biskonyik__sgushennoe_moloko.htm">
+
+
+									Тарталетки &#034;BiSKontik&#034; сгущенное молоко
+
+								</a></span>
+
+		<span class="price">От 146,03 р.</span>
+		<a href="/g/tartaletki__biskonyik__sgushennoe_moloko.htm" onclick="ga('send', 'Buy', 'main', 'Тарталетки &#034;BiSKontik&#034; сгущенное молоко', 146,03);" class="new-button">Заказать</a>
+	</li>
+
+	<li>
+		<div class="image-holder"><a href="/g/rulet_biskvitnyj__biskonyi__krem_vishnya.htm"> <img src="/files/goods/14/14879/570_preview.jpg" width="133px" height="100px"> </a></div>
+								<span class="product-name"><a href="/g/rulet_biskvitnyj__biskonyi__krem_vishnya.htm">
+
+
+									Рулет бисквитный &#034;BiSKonti&#034; крем-вишня
+
+								</a></span>
+
+		<span class="price">От 30,48 р.</span>
+		<a href="/g/rulet_biskvitnyj__biskonyi__krem_vishnya.htm" onclick="ga('send', 'Buy', 'main', 'Рулет бисквитный &#034;BiSKonti&#034; крем-вишня', 30,48);" class="new-button">Заказать</a>
+	</li>
+
+	<li>
+		<div class="image-holder"><a href="/g/karamel__shatel__moloko.htm"> <img src="/files/goods/14/14986/677_preview.jpg" width="133px" height="100px"> </a></div>
+								<span class="product-name"><a href="/g/karamel__shatel__moloko.htm">
+
+
+									Карамель &#034;Шатель&#034; молоко
+
+								</a></span>
+
+		<span class="price">От 111,57 р.</span>
+		<a href="/g/karamel__shatel__moloko.htm" onclick="ga('send', 'Buy', 'main', 'Карамель &#034;Шатель&#034; молоко', 111,57);" class="new-button">Заказать</a>
+	</li>
+
+	<li>
+		<div class="image-holder"><a href="/g/zefir__vanilnyj_.htm"> <img src="/files/goods/15/15052/743_preview.jpg" width="133px" height="100px"> </a></div>
+								<span class="product-name"><a href="/g/zefir__vanilnyj_.htm">
+
+
+									Зефир &#034;Ванильный&#034;
+
+								</a></span>
+
+		<span class="price">От 107,80 р.</span>
+		<a href="/g/zefir__vanilnyj_.htm" onclick="ga('send', 'Buy', 'main', 'Зефир &#034;Ванильный&#034;', 107,80);" class="new-button">Заказать</a>
+	</li>
+
+</ul>
+
+<ul class="frame" id="goods-list-2" style="display:none;">
+
+	<li>
+		<div class="image-holder"><a href="/g/konfety__premium_d'essery__s_droblenym_fundukom.htm"> <img src="/files/goods/14/14914/605_preview.jpg" width="133px" height="100px"> </a></div>
+								<span class="product-name"><a href="/g/konfety__premium_d'essery__s_droblenym_fundukom.htm">
+
+									Конфеты &#034;Premium Dessert&#034; с дробленым фу...
+
+
+								</a></span>
+
+		<span class="price">От 402,05 р.</span>
+		<a href="/g/konfety__premium_d'essery__s_droblenym_fundukom.htm" onclick="ga('send', 'Buy', 'main', 'Конфеты &#034;Premium Dessert&#034; с дробленым фундуком', 402,05);" class="new-button">Заказать</a>
+	</li>
+
+	<li>
+		<div class="image-holder"><a href="/g/pechene_sendvich__super_kontik__shokoladnyj1.htm"> <img src="/files/goods/15/15015/706_preview.jpg" width="133px" height="100px"> </a></div>
+								<span class="product-name"><a href="/g/pechene_sendvich__super_kontik__shokoladnyj1.htm">
+
+									Печенье-сэндвич &#034;Супер-Контик&#034; шоколадны...
+
+
+								</a></span>
+
+		<span class="price">От 6,48 р.</span>
+		<a href="/g/pechene_sendvich__super_kontik__shokoladnyj1.htm" onclick="ga('send', 'Buy', 'main', 'Печенье-сэндвич &#034;Супер-Контик&#034; шоколадный', 6,48);" class="new-button">Заказать</a>
+	</li>
+
+	<li>
+		<div class="image-holder"><a href="/g/karamel____grand_konti__shokolad.htm"> <img src="/files/goods/14/14985/676_preview.jpg" width="133px" height="100px"> </a></div>
+								<span class="product-name"><a href="/g/karamel____grand_konti__shokolad.htm">
+
+
+									Карамель   &#034;Гранд-КОНТИ&#034; шоколад
+
+								</a></span>
+
+		<span class="price">От 133,22 р.</span>
+		<a href="/g/karamel____grand_konti__shokolad.htm" onclick="ga('send', 'Buy', 'main', 'Карамель   &#034;Гранд-КОНТИ&#034; шоколад', 133,22);" class="new-button">Заказать</a>
+	</li>
+
+	<li>
+		<div class="image-holder"><a href="/g/konfety__umka_konti_.htm"> <img src="/files/goods/14/14943/634_preview.jpg" width="133px" height="100px"> </a></div>
+								<span class="product-name"><a href="/g/konfety__umka_konti_.htm">
+
+
+									Конфеты &#034;Умка-Конти&#034;
+
+								</a></span>
+
+		<span class="price">От 38,13 р.</span>
+		<a href="/g/konfety__umka_konti_.htm" onclick="ga('send', 'Buy', 'main', 'Конфеты &#034;Умка-Конти&#034;', 38,13);" class="new-button">Заказать</a>
+	</li>
+
+	<li>
+		<div class="image-holder"><a href="/g/konfety__souffle_luxe__shokolad.htm"> <img src="/files/goods/14/14971/662_preview.jpg" width="133px" height="100px"> </a></div>
+								<span class="product-name"><a href="/g/konfety__souffle_luxe__shokolad.htm">
+
+
+									Конфеты &#034;SOUFFLE Luxe&#034; шоколад
+
+								</a></span>
+
+		<span class="price">От 183,05 р.</span>
+		<a href="/g/konfety__souffle_luxe__shokolad.htm" onclick="ga('send', 'Buy', 'main', 'Конфеты &#034;SOUFFLE Luxe&#034; шоколад', 183,05);" class="new-button">Заказать</a>
+	</li>
+
+	<li>
+		<div class="image-holder"><a href="/g/konfety__belissimo__classico_shokoladnyj_krem.htm"> <img src="/files/goods/14/14928/619_preview.jpg" width="133px" height="100px"> </a></div>
+								<span class="product-name"><a href="/g/konfety__belissimo__classico_shokoladnyj_krem.htm">
+
+									Конфеты &#034;Белиссимо&#034; CLASSICO шоколадный ...
+
+
+								</a></span>
+
+		<span class="price">От 159,48 р.</span>
+		<a href="/g/konfety__belissimo__classico_shokoladnyj_krem.htm" onclick="ga('send', 'Buy', 'main', 'Конфеты &#034;Белиссимо&#034; CLASSICO шоколадный крем', 159,48);" class="new-button">Заказать</a>
+	</li>
+
+</ul>
+
+<ul class="frame" id="goods-list-3" style="display:none;">
+
+	<li>
+		<div class="image-holder"><a href="/g/pechene_sendvich__sgushenkino_1.htm"> <img src="/files/goods/15/15025/716_preview.jpg" width="133px" height="100px"> </a></div>
+								<span class="product-name"><a href="/g/pechene_sendvich__sgushenkino_1.htm">
+
+
+									Печенье-сэндвич &#034;Сгущенкино&#034;
+
+								</a></span>
+
+		<span class="price">От 4,18 р.</span>
+		<a href="/g/pechene_sendvich__sgushenkino_1.htm" onclick="ga('send', 'Buy', 'main', 'Печенье-сэндвич &#034;Сгущенкино&#034;', 4,18);" class="new-button">Заказать</a>
+	</li>
+
+	<li>
+		<div class="image-holder"><a href="/g/konfety__krem_jogurt__lesnye_yagody.htm"> <img src="/files/goods/14/14924/615_preview.jpg" width="133px" height="100px"> </a></div>
+								<span class="product-name"><a href="/g/konfety__krem_jogurt__lesnye_yagody.htm">
+
+
+									Конфеты &#034;Крем-Йогурт&#034; лесные ягоды
+
+								</a></span>
+
+		<span class="price">От 138,34 р.</span>
+		<a href="/g/konfety__krem_jogurt__lesnye_yagody.htm" onclick="ga('send', 'Buy', 'main', 'Конфеты &#034;Крем-Йогурт&#034; лесные ягоды', 138,34);" class="new-button">Заказать</a>
+	</li>
+
+	<li>
+		<div class="image-holder"><a href="/g/konfety__limbo__shokoladnyj_vkus.htm"> <img src="/files/goods/14/14960/651_preview.jpg" width="133px" height="100px"> </a></div>
+								<span class="product-name"><a href="/g/konfety__limbo__shokoladnyj_vkus.htm">
+
+
+									Конфеты &#034;Лимбо&#034; шоколадный вкус
+
+								</a></span>
+
+		<span class="price">От 129,75 р.</span>
+		<a href="/g/konfety__limbo__shokoladnyj_vkus.htm" onclick="ga('send', 'Buy', 'main', 'Конфеты &#034;Лимбо&#034; шоколадный вкус', 129,75);" class="new-button">Заказать</a>
+	</li>
+
+	<li>
+		<div class="image-holder"><a href="/g/pechene__brize__s_kunzhutom.htm"> <img src="/files/goods/15/15027/718_preview.jpg" width="133px" height="100px"> </a></div>
+								<span class="product-name"><a href="/g/pechene__brize__s_kunzhutom.htm">
+
+
+									Печенье &#034;Бризе&#034; с кунжутом
+
+								</a></span>
+
+		<span class="price">От 27,27 р.</span>
+		<a href="/g/pechene__brize__s_kunzhutom.htm" onclick="ga('send', 'Buy', 'main', 'Печенье &#034;Бризе&#034; с кунжутом', 27,27);" class="new-button">Заказать</a>
+	</li>
+
+	<li>
+		<div class="image-holder"><a href="/g/pechene_sendvich__super_kontik__shokoladno_molochnyj_s_orehom1.htm"> <img src="/files/goods/15/15023/714_preview.jpg" width="133px" height="100px"> </a></div>
+								<span class="product-name"><a href="/g/pechene_sendvich__super_kontik__shokoladno_molochnyj_s_orehom1.htm">
+
+									Печенье-сэндвич &#034;Супер-Контик&#034; шоколадно...
+
+
+								</a></span>
+
+		<span class="price">От 6,48 р.</span>
+		<a href="/g/pechene_sendvich__super_kontik__shokoladno_molochnyj_s_orehom1.htm" onclick="ga('send', 'Buy', 'main', 'Печенье-сэндвич &#034;Супер-Контик&#034; шоколадно-молочный с орехом', 6,48);" class="new-button">Заказать</a>
+	</li>
+
+	<li>
+		<div class="image-holder"><a href="/g/pechene__karapuz_konti__s_kunzhutom.htm"> <img src="/files/goods/15/15032/723_preview.jpg" width="133px" height="100px"> </a></div>
+								<span class="product-name"><a href="/g/pechene__karapuz_konti__s_kunzhutom.htm">
+
+
+									Печенье &#034;Карапуз-КОНТИ&#034; с кунжутом
+
+								</a></span>
+
+		<span class="price">От 12,90 р.</span>
+		<a href="/g/pechene__karapuz_konti__s_kunzhutom.htm" onclick="ga('send', 'Buy', 'main', 'Печенье &#034;Карапуз-КОНТИ&#034; с кунжутом', 12,90);" class="new-button">Заказать</a>
+	</li>
+
+</ul>
+
+<ul class="frame" id="goods-list-4" style="display:none;">
+
+	<li>
+		<div class="image-holder"><a href="/g/rulet_biskvitnyj__biskonyi__klubnika_so_slivkami.htm"> <img src="/files/goods/14/14877/568_preview.jpg" width="133px" height="100px"> </a></div>
+								<span class="product-name"><a href="/g/rulet_biskvitnyj__biskonyi__klubnika_so_slivkami.htm">
+
+									Рулет бисквитный &#034;BiSKonti&#034; клубника со ...
+
+
+								</a></span>
+
+		<span class="price">От 30,48 р.</span>
+		<a href="/g/rulet_biskvitnyj__biskonyi__klubnika_so_slivkami.htm" onclick="ga('send', 'Buy', 'main', 'Рулет бисквитный &#034;BiSKonti&#034; клубника со сливками', 30,48);" class="new-button">Заказать</a>
+	</li>
+
+	<li>
+		<div class="image-holder"><a href="/g/konfety__mone__s_tselym_orehom.htm"> <img src="/files/goods/14/14956/647_preview.jpg" width="133px" height="100px"> </a></div>
+								<span class="product-name"><a href="/g/konfety__mone__s_tselym_orehom.htm">
+
+
+									Конфеты &#034;Mone&#034; с целым орехом
+
+								</a></span>
+
+		<span class="price">От 260,61 р.</span>
+		<a href="/g/konfety__mone__s_tselym_orehom.htm" onclick="ga('send', 'Buy', 'main', 'Конфеты &#034;Mone&#034; с целым орехом', 260,61);" class="new-button">Заказать</a>
+	</li>
+
+	<li>
+		<div class="image-holder"><a href="/g/konfety__melodika__persikovaya_sonata.htm"> <img src="/files/goods/14/14932/623_preview.jpg" width="133px" height="100px"> </a></div>
+								<span class="product-name"><a href="/g/konfety__melodika__persikovaya_sonata.htm">
+
+
+									Конфеты &#034;Мелодика&#034; персиковая соната
+
+								</a></span>
+
+		<span class="price">От 134,21 р.</span>
+		<a href="/g/konfety__melodika__persikovaya_sonata.htm" onclick="ga('send', 'Buy', 'main', 'Конфеты &#034;Мелодика&#034; персиковая соната', 134,21);" class="new-button">Заказать</a>
+	</li>
+
+	<li>
+		<div class="image-holder"><a href="/g/karamel__rachki_moryachki_.htm"> <img src="/files/goods/14/14989/680_preview.jpg" width="133px" height="100px"> </a></div>
+								<span class="product-name"><a href="/g/karamel__rachki_moryachki_.htm">
+
+
+									Карамель &#034;Рачки-морячки&#034;
+
+								</a></span>
+
+		<span class="price">От 96,74 р.</span>
+		<a href="/g/karamel__rachki_moryachki_.htm" onclick="ga('send', 'Buy', 'main', 'Карамель &#034;Рачки-морячки&#034;', 96,74);" class="new-button">Заказать</a>
+	</li>
+
+	<li>
+		<div class="image-holder"><a href="/g/rulet_biskvitnyj__biskonyi__evropejskij_krem_bryule.htm"> <img src="/files/goods/14/14875/566_preview.jpg" width="133px" height="100px"> </a></div>
+								<span class="product-name"><a href="/g/rulet_biskvitnyj__biskonyi__evropejskij_krem_bryule.htm">
+
+									Рулет бисквитный &#034;BiSKonti&#034; Европейский ...
+
+
+								</a></span>
+
+		<span class="price">От 41,09 р.</span>
+		<a href="/g/rulet_biskvitnyj__biskonyi__evropejskij_krem_bryule.htm" onclick="ga('send', 'Buy', 'main', 'Рулет бисквитный &#034;BiSKonti&#034; Европейский крем-брюле', 41,09);" class="new-button">Заказать</a>
+	</li>
+
+	<li>
+		<div class="image-holder"><a href="/g/shokoladnyj_batonchik__shokotel__krem_moloko.htm"> <img src="/files/goods/14/14845/536_preview.jpg" width="133px" height="100px"> </a></div>
+								<span class="product-name"><a href="/g/shokoladnyj_batonchik__shokotel__krem_moloko.htm">
+
+									Шоколадный батончик &#034;Шокотель&#034; крем-моло...
+
+
+								</a></span>
+
+		<span class="price">От 12,12 р.</span>
+		<a href="/g/shokoladnyj_batonchik__shokotel__krem_moloko.htm" onclick="ga('send', 'Buy', 'main', 'Шоколадный батончик &#034;Шокотель&#034; крем-молоко', 12,12);" class="new-button">Заказать</a>
+	</li>
+
+</ul>
+
+<ul class="frame" id="goods-list-5" style="display:none;">
+
+	<li>
+		<div class="image-holder"><a href="/g/pechene__sendi__s_orehom.htm"> <img src="/files/goods/14/14998/689_preview.jpg" width="133px" height="100px"> </a></div>
+								<span class="product-name"><a href="/g/pechene__sendi__s_orehom.htm">
+
+
+									Печенье &#034;Сэнди&#034; с орехом
+
+								</a></span>
+
+		<span class="price">От 62,84 р.</span>
+		<a href="/g/pechene__sendi__s_orehom.htm" onclick="ga('send', 'Buy', 'main', 'Печенье &#034;Сэнди&#034; с орехом', 62,84);" class="new-button">Заказать</a>
+	</li>
+
+	<li>
+		<div class="image-holder"><a href="/g/konfety__natalka_.htm"> <img src="/files/goods/14/14938/629_preview.jpg" width="133px" height="100px"> </a></div>
+								<span class="product-name"><a href="/g/konfety__natalka_.htm">
+
+
+									Конфеты &#034;Наталка&#034;
+
+								</a></span>
+
+		<span class="price">От 155,05 р.</span>
+		<a href="/g/konfety__natalka_.htm" onclick="ga('send', 'Buy', 'main', 'Конфеты &#034;Наталка&#034;', 155,05);" class="new-button">Заказать</a>
+	</li>
+
+	<li>
+		<div class="image-holder"><a href="/g/pechene_sendvich__super_kontik__shokoladnyj_s_orehom.htm"> <img src="/files/goods/15/15014/705_preview.jpg" width="133px" height="100px"> </a></div>
+								<span class="product-name"><a href="/g/pechene_sendvich__super_kontik__shokoladnyj_s_orehom.htm">
+
+									Печенье-сэндвич &#034;Супер-Контик&#034; шоколадны...
+
+
+								</a></span>
+
+		<span class="price">От 12,51 р.</span>
+		<a href="/g/pechene_sendvich__super_kontik__shokoladnyj_s_orehom.htm" onclick="ga('send', 'Buy', 'main', 'Печенье-сэндвич &#034;Супер-Контик&#034; шоколадный с орехом', 12,51);" class="new-button">Заказать</a>
+	</li>
+
+	<li>
+		<div class="image-holder"><a href="/g/konfety__esfero_crema_ym_amour_2.htm"> <img src="/files/goods/14/14895/586_preview.jpg" width="133px" height="100px"> </a></div>
+								<span class="product-name"><a href="/g/konfety__esfero_crema_ym_amour_2.htm">
+
+
+									Конфеты &#034;EsfeRo Crema TM AMOUR&#034;
+
+								</a></span>
+
+		<span class="price">От 208,94 р.</span>
+		<a href="/g/konfety__esfero_crema_ym_amour_2.htm" onclick="ga('send', 'Buy', 'main', 'Конфеты &#034;EsfeRo Crema TM AMOUR&#034;', 208,94);" class="new-button">Заказать</a>
+	</li>
+
+	<li>
+		<div class="image-holder"><a href="/g/shokolad_v_rigelyah__amour_d'olci__molochnyj_s_fundukom.htm"> <img src="/files/goods/14/14842/533_preview.jpg" width="133px" height="100px"> </a></div>
+								<span class="product-name"><a href="/g/shokolad_v_rigelyah__amour_d'olci__molochnyj_s_fundukom.htm">
+
+									Шоколад в ригелях &#034;AMOUR-Dolci&#034; молочный...
+
+
+								</a></span>
+
+		<span class="price">От 68,12 р.</span>
+		<a href="/g/shokolad_v_rigelyah__amour_d'olci__molochnyj_s_fundukom.htm" onclick="ga('send', 'Buy', 'main', 'Шоколад в ригелях &#034;AMOUR-Dolci&#034; молочный с фундуком', 68,12);" class="new-button">Заказать</a>
+	</li>
+
+	<li>
+		<div class="image-holder"><a href="/g/konfety__senorita_klubnika_.htm"> <img src="/files/goods/14/14941/632_preview.jpg" width="133px" height="100px"> </a></div>
+								<span class="product-name"><a href="/g/konfety__senorita_klubnika_.htm">
+
+
+									Конфеты &#034;Сеньорита Клубника&#034;
+
+								</a></span>
+
+		<span class="price">От 99,79 р.</span>
+		<a href="/g/konfety__senorita_klubnika_.htm" onclick="ga('send', 'Buy', 'main', 'Конфеты &#034;Сеньорита Клубника&#034;', 99,79);" class="new-button">Заказать</a>
+	</li>
+
+</ul>
+
+<ul class="frame" id="goods-list-6" style="display:none;">
+
+	<li>
+		<div class="image-holder"><a href="/g/vafelnyj_tort__mamulin_tort__klassicheskij.htm"> <img src="/files/goods/15/15036/727_preview.jpg" width="133px" height="100px"> </a></div>
+								<span class="product-name"><a href="/g/vafelnyj_tort__mamulin_tort__klassicheskij.htm">
+
+									Вафельный торт &#034;Мамулин торт&#034; классическ...
+
+
+								</a></span>
+
+		<span class="price">От 44,30 р.</span>
+		<a href="/g/vafelnyj_tort__mamulin_tort__klassicheskij.htm" onclick="ga('send', 'Buy', 'main', 'Вафельный торт &#034;Мамулин торт&#034; классический', 44,30);" class="new-button">Заказать</a>
+	</li>
+
+	<li>
+		<div class="image-holder"><a href="/g/pechene_sendvich__den_i_noch_.htm"> <img src="/files/goods/15/15010/701_preview.jpg" width="133px" height="100px"> </a></div>
+								<span class="product-name"><a href="/g/pechene_sendvich__den_i_noch_.htm">
+
+
+									Печенье-сэндвич &#034;День и ночь&#034;
+
+								</a></span>
+
+		<span class="price">От 85,84 р.</span>
+		<a href="/g/pechene_sendvich__den_i_noch_.htm" onclick="ga('send', 'Buy', 'main', 'Печенье-сэндвич &#034;День и ночь&#034;', 85,84);" class="new-button">Заказать</a>
+	</li>
+
+	<li>
+		<div class="image-holder"><a href="/g/konfety__konti_muss__moloko.htm"> <img src="/files/goods/14/14923/614_preview.jpg" width="133px" height="100px"> </a></div>
+								<span class="product-name"><a href="/g/konfety__konti_muss__moloko.htm">
+
+
+									конфеты &#034;КОНТИ-Мусс&#034; молоко
+
+								</a></span>
+
+		<span class="price">От 149,95 р.</span>
+		<a href="/g/konfety__konti_muss__moloko.htm" onclick="ga('send', 'Buy', 'main', 'конфеты &#034;КОНТИ-Мусс&#034; молоко', 149,95);" class="new-button">Заказать</a>
+	</li>
+
+	<li>
+		<div class="image-holder"><a href="/g/konfety__belissimo__den.htm"> <img src="/files/goods/14/14899/590_preview.jpg" width="133px" height="100px"> </a></div>
+								<span class="product-name"><a href="/g/konfety__belissimo__den.htm">
+
+
+									Конфеты &#034;Белиссимо&#034; День
+
+								</a></span>
+
+		<span class="price">От 71,08 р.</span>
+		<a href="/g/konfety__belissimo__den.htm" onclick="ga('send', 'Buy', 'main', 'Конфеты &#034;Белиссимо&#034; День', 71,08);" class="new-button">Заказать</a>
+	</li>
+
+	<li>
+		<div class="image-holder"><a href="/g/mini_rulet_biskvitnyj__biskonyi__krem_bryule.htm"> <img src="/files/goods/14/14881/572_preview.jpg" width="133px" height="100px"> </a></div>
+								<span class="product-name"><a href="/g/mini_rulet_biskvitnyj__biskonyi__krem_bryule.htm">
+
+									Мини-рулет бисквитный &#034;BiSKonti&#034; крем-бр...
+
+
+								</a></span>
+
+		<span class="price">От 7,91 р.</span>
+		<a href="/g/mini_rulet_biskvitnyj__biskonyi__krem_bryule.htm" onclick="ga('send', 'Buy', 'main', 'Мини-рулет бисквитный &#034;BiSKonti&#034; крем-брюле', 7,91);" class="new-button">Заказать</a>
+	</li>
+
+	<li>
+		<div class="image-holder"><a href="/g/desert__bonjour_nuy_1.htm"> <img src="/files/goods/14/14851/542_preview.jpg" width="133px" height="100px"> </a></div>
+								<span class="product-name"><a href="/g/desert__bonjour_nuy_1.htm">
+
+
+									Десерт &#034;Bonjour nut&#034;
+
+								</a></span>
+
+		<span class="price">От 40,55 р.</span>
+		<a href="/g/desert__bonjour_nuy_1.htm" onclick="ga('send', 'Buy', 'main', 'Десерт &#034;Bonjour nut&#034;', 40,55);" class="new-button">Заказать</a>
+	</li>
+
+</ul>
+
+<ul class="pagination-carousel">
+
+	<li id="goodsSliderLink1" class="active"><a onclick="switchGoodsSliderItem(1);">1</a></li>
+
+	<li id="goodsSliderLink2" ><a onclick="switchGoodsSliderItem(2);">2</a></li>
+
+	<li id="goodsSliderLink3" ><a onclick="switchGoodsSliderItem(3);">3</a></li>
+
+	<li id="goodsSliderLink4" ><a onclick="switchGoodsSliderItem(4);">4</a></li>
+
+	<li id="goodsSliderLink5" ><a onclick="switchGoodsSliderItem(5);">5</a></li>
+
+	<li id="goodsSliderLink6" ><a onclick="switchGoodsSliderItem(6);">6</a></li>
+
+</ul>
+</div>
+</div>
+
+<script type="text/javascript">
+
+	window.currentGoodsSliderItem=1;
+	var myVar = setInterval(function(){switchGoodsSliderItem(window.currentGoodsSliderItem + 1)},10*1000);
+</script>
+</div>
+
+
+<div class="registration-block">
+	<div class="holder">
+		<form class="registration" method="get" action="/signup.htm">
+			<fieldset>
+				<h3>Зарегистрируйтесь:</h3>
+				<div class="column">
+					<div class="text"><input type="text" placeholder="Ваше имя" name="firstname"></div>
+					<div class="text"><input type="text" placeholder="Ваша фамилия" name="lastname"></div>
+				</div>
+				<div class="column">
+					<div class="text"><input type="text" placeholder="Ваш e-mail" name="email"></div>
+					<a href="/welcome-b.htm">Если Вы - магазин, кафе или отель...</a>
+				</div>
+				<div class="column">
+					<input type="submit" class="btn-submit" value="Приступить к покупкам">
+					<a class="btn-login" href="https://oauth.yandex.ru/authorize?response_type=code&client_id=6385a04b8c56498ba1c1e3540bcca367"><img src="images/login-yandex.png" alt="" width="91" height="40"></a>
+					<a class="btn-login" href="https://connect.mail.ru/oauth/authorize?client_id=709810&response_type=code&redirect_uri=https://otkorobki.ru/oauth2mailru.htm"><img src="images/login-mail.png" alt="" width="97" height="40"></a>
+					<a class="btn-login" href="https://accounts.google.com/o/oauth2/auth?
+								scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile&
+								state=%2Fprofile&
+								redirect_uri=https://otkorobki.ru/oauth2google.htm&
+								response_type=code&
+								client_id=763181511428.apps.googleusercontent.com"><img src="images/login-google.png" alt="" width="97" height="40"></a>
+				</div>
+			</fieldset>
+		</form>
+		<span class="notice">Нажмите на кнопку "Приступить к покупкам" вы подтверждаете свое согласие с пользовательским соглашением</span>
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+<div class="bottom-menu">
+	<h4>Весь каталог:</h4>
+	<div class="container">
+
+
+		<div class="block">
+			<h5><a href="/cat/konditerskie_izdeliya.htm">Кондитерские изделия</a></h5>
+			<ul class="list">
+
+				<li ><a href="/cat/konfety.htm">Конфеты</a></li>
+
+				<li ><a href="/cat/pechene.htm">Печенье</a></li>
+
+				<li ><a href="/cat/pirozhnye__pirogi__vypechka.htm">Пирожные, пироги, выпечка</a></li>
+
+				<li ><a href="/cat/torty.htm">Торты</a></li>
+
+				<li ><a href="/cat/shokolad.htm">Шоколад</a></li>
+
+				<li ><a href="/cat/keksy__rulety__kruassany.htm">Кексы, рулеты, круассаны</a></li>
+
+				<li ><a href="/cat/vafli__pryaniki__kreker.htm">Вафли, пряники, крекер</a></li>
+
+				<li ><a href="/cat/zefir__pastila__sufle.htm">Зефир, пастила, суфле</a></li>
+
+				<li class="no-children"><a href="/cat/kukuruznye_izdeliya__sneki.htm">Кукурузные изделия, снеки</a></li>
+
+				<li class="no-children"><a href="/cat/konditerskie_izdeliya_bez_sahara.htm">Кондитерские изделия без сахара</a></li>
+
+				<li class="no-children"><a href="/cat/marmelad.htm">Мармелад</a></li>
+
+				<li class="no-children"><a href="/cat/vostochnye_sladosti.htm">Восточные сладости</a></li>
+
+			</ul>
+		</div>
+
+
+
+		<div class="block">
+			<h5><a href="/cat/tovary_dlya_zhivotnyh.htm">Товары для животных</a></h5>
+			<ul class="list">
+
+				<li class="no-children"><a href="/cat/korma_dlya_koshek.htm">Корма для кошек</a></li>
+
+				<li class="no-children"><a href="/cat/korma_dlya_sobak.htm">Корма для собак</a></li>
+
+			</ul>
+		</div>
+
+
+
+		<div class="block">
+			<h5><a href="/cat/detskoe_pitanie.htm">Детское питание</a></h5>
+			<ul class="list">
+
+				<li class="no-children"><a href="/cat/pyure.htm">Пюре</a></li>
+
+			</ul>
+		</div>
+
+
+
+
+
+
+
+
+
+
+
+		<div class="block">
+			<h5><a href="/cat/voda__napitki__soki.htm">Вода, напитки, соки</a></h5>
+			<ul class="list">
+
+				<li class="no-children"><a href="/cat/soki__nektary__morsy.htm">Соки, нектары, морсы</a></li>
+
+			</ul>
+		</div>
+
+
+
+
+
+		<div class="block">
+			<h5><a href="/cat/molochnye_produkty__yajtsa.htm">Молочные продукты, яйца</a></h5>
+			<ul class="list">
+
+				<li class="no-children"><a href="/cat/majonezy_i_sousy.htm">Майонезы и соусы</a></li>
+
+				<li class="no-children"><a href="/cat/yajtso.htm">Яйцо</a></li>
+
+				<li class="no-children"><a href="/cat/margarin__spredy.htm">Маргарин, спреды</a></li>
+
+			</ul>
+		</div>
+
+
+
+		<div class="block">
+			<h5><a href="/cat/bakaleya.htm">Бакалея</a></h5>
+			<ul class="list">
+
+				<li class="no-children"><a href="/cat/ketchupy__sousy__zapravki.htm">Кетчупы, соусы, заправки</a></li>
+
+				<li class="no-children"><a href="/cat/orehi__suhofrukty__semechki.htm">Орехи, сухофрукты, семечки</a></li>
+
+				<li class="no-children"><a href="/cat/sahar__sol.htm">Сахар, соль</a></li>
+
+				<li class="no-children"><a href="/cat/rastitelnye_masla.htm">Растительные масла</a></li>
+
+				<li class="no-children"><a href="/cat/produkty_bystrogo_prigotovleniya.htm">Продукты быстрого приготовления</a></li>
+
+				<li class="no-children"><a href="/cat/suhie_zavtraki__kashi__hlopya.htm">Сухие завтраки, каши, хлопья</a></li>
+
+				<li class="no-children"><a href="/cat/gorchitsa.htm">Горчица</a></li>
+
+			</ul>
+		</div>
+
+
+
+		<div class="block">
+			<h5><a href="/cat/kosmetika__bytovaya_himiya.htm">Косметика, бытовая химия</a></h5>
+			<ul class="list">
+
+				<li class="no-children"><a href="/cat/salfetki.htm">Салфетки</a></li>
+
+				<li class="no-children"><a href="/cat/mylo.htm">Мыло</a></li>
+
+			</ul>
+		</div>
+
+
+
+		<div class="block">
+			<h5><a href="/cat/chaj__kofe__kakao.htm">Чай, Кофе, Какао</a></h5>
+			<ul class="list">
+
+				<li class="no-children"><a href="/cat/chaj.htm">Чай</a></li>
+
+				<li class="no-children"><a href="/cat/kofe.htm">Кофе</a></li>
+
+			</ul>
+		</div>
+
+
+
+		<div class="block">
+			<h5><a href="/cat/dieticheskie_produkty.htm">Диетические продукты</a></h5>
+			<ul class="list">
+
+				<li class="no-children"><a href="/cat/saharozameniteli.htm">Сахарозаменители</a></li>
+
+			</ul>
+		</div>
+
+
+
+		<div class="block">
+			<h5><a href="/cat/konservatsiya.htm">Консервация</a></h5>
+			<ul class="list">
+
+				<li class="no-children"><a href="/cat/med.htm">Мед</a></li>
+
+				<li class="no-children"><a href="/cat/plodovo_yagodnye_konservy.htm">Плодово-ягодные консервы</a></li>
+
+				<li class="no-children"><a href="/cat/ovoshnye_konservy.htm">Овощные консервы</a></li>
+
+			</ul>
+		</div>
+
+
+	</div>
+</div>
+
+
+<div id="footer">
+	<div class="container">
+		<div class="holder">
+			<div class="block">
+				<h5>ПРАВОВАЯ ИНФОРМАЦИЯ</h5>
+				<p>@ 2012-2014 <br/>Мастер оптовых заказов Откоробки <br/> Все права защищены</p>
+				<p>При перепечатке материалов ссылка на первоисточник обязательна</p>
+			</div>
+			<div class="block">
+				<h5>КОНТАКТЫ</h5>
+				<p>
+					тел.: 8 800 333-50-98 <br>
+					тел.: +7 495 215-10-36 <br>
+					E-mail: <a href="mailto:info@otkorobki.ru">info@otkorobki.ru</a>
+				</p>
+			</div>
+			<div class="block">
+				<h5>ОСНОВНЫЕ РАЗДЕЛЫ</h5>
+				<ul>
+					<li><a href="/">Главная</a></li>
+					<li><a href="/content/about.htm">О системе</a></li>
+					<li><a href="/content/howtobuy.htm">Как сделать заказ</a></li>
+					<li><a href="/content/get.htm">Доставка и оплата</a></li>
+					<li><a href="/contacts.htm">Контакты</a></li>
+				</ul>
+			</div>
+			<div class="block">
+				<h5>ПОЛЕЗНЫЕ ССЫЛКИ</h5>
+				<ul>
+					<li><a href="/welcome-b.htm">Покупателям</a></li>
+					<li><a href="/welcome-m.htm">Производителям</a></li>
+					<li><a href="/welcome-s.htm">Дистрибьюторам</a></li>
+					<li><a href="/content/agreement.htm">Пользовательское соглашение</a></li>
+					<li><a href="/content/ofertapro.htm">Договор-оферта для профессиональных участников</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+<script type='text/javascript'>
+	var liveTex = true,
+			liveTexID = 62881,
+			liveTex_object = true;
+	(function()
+	{ var lt = document.createElement('script'); lt.type ='text/javascript'; lt.async = true; lt.src = 'http://cs15.livetex.ru/js/client.js'; var sc = document.getElementsByTagName('script')[0]; if ( sc ) sc.parentNode.insertBefore(lt, sc); else document.documentElement.firstChild.appendChild(lt); }
+			)();
+</script>
+</body>
+</html>

@@ -1,0 +1,116 @@
+.outtaHere {
+	position:absolute;
+	left:-3000px;
+}
+/*Radio buttons*/
+.radioArea, .radioAreaChecked {
+	float:left;
+	width:15px !important;
+	height:16px;
+	background: url(../images/radio.gif) no-repeat;
+	overflow: hidden;
+}
+.radioAreaChecked {background-position: 0 -16px;}
+/*Checkboxes*/
+.checkboxArea, .checkboxAreaChecked {
+	float:left;
+	width:14px !important;
+	height:14px;
+	overflow: hidden;
+	background: url(../images/checkbox.gif) no-repeat;
+}
+.checkboxAreaChecked {background-position: 0 -14px;}
+
+/* Selects */
+.selectArea {
+	border:solid 1px #d5d5d5;
+	border-radius:3px;
+	position: relative;
+	height: 23px;
+	float:left;
+	color:#7b7b7b;
+	font-size:11px;
+	line-height:23px;
+}
+.form-search .selectArea{
+	border:0;
+	line-height: 29px;
+	height: 29px;
+}
+.selectArea .left {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width:4px;
+	height:100%;
+	display: block;
+}
+.selectArea a.selectButton {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width:100%;
+	height:100%;
+	background: url(../images/btn-select2.png) no-repeat 100% 0;
+}
+.form-search .selectArea a.selectButton{
+	background: url(../images/btn-select.png) no-repeat 69px 13px;
+}
+.selectArea .center{
+	height: 23px;
+	line-height:23px;
+	display:block;
+	padding:0 25px 0 8px;
+}
+.form-search .selectArea .center{
+	height: 29px;
+	line-height:29px;
+}
+.selectArea .center img {
+	float:left;
+}
+/*Selects drop-down*/
+.optionsDivInvisible,
+.optionsDivVisible {
+	position: absolute;
+	background-color: #E5E5E5;
+	border: 1px solid #C9C9C9;
+	display: block;
+	z-index: 30;
+	font-size: 11px;
+}
+.optionsDivScroll ul {
+	height: 205px;
+	overflow: auto !important;
+}
+.drop-dif {
+	background:#99CCCC;
+}
+.optionsDivInvisible {display: none;}
+.optionsDivVisible ul {
+	margin:0;
+	padding:2px;
+	overflow:hidden;
+	list-style: none;
+}
+.optionsDivVisible ul li {
+	float:left;
+	width:100%;
+}
+.optionsDivVisible a {
+	color: #000;
+	overflow:hidden;
+	text-decoration: none;
+	display: block;
+	height:1%;
+	padding: 2px 4px;
+}
+.optionsDivVisible a img {
+	border:none;
+	float:left;
+}
+.optionsDivVisible a:hover {
+	background-color: #2F384E;
+	color: #FFF;
+	text-decoration:underline;
+}
