@@ -1,3 +1,25 @@
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+	content: " "; /* 1 */
+	display: table; /* 2 */
+}
+
+.clearfix:after {
+	clear: both;
+}
+
 body{
 	margin:0;
 	color:#000;
@@ -436,6 +458,20 @@ fieldset {
 .pagination-block{
 	padding:0 0 5px;
 }
+.pagination-block.-suppliers {
+	padding: 10px 0;
+}
+.pagination-block.-suppliers > a {
+	font-size: 16px;
+	margin-right: 9px;
+}
+.pagination-block.-suppliers > .active {
+	color: #e66100;
+}
+.pagination-block.-suppliers > .link-to-page {
+	float: right;
+}
+
 .pagination-block .btn-next,
 .pagination-block .btn-prev{
 	background:url(../images/btn-pagination.png) no-repeat;
@@ -448,6 +484,16 @@ fieldset {
 }
 .pagination-block .btn-next{
 	background:url(../images/btn-pagination.png) no-repeat 100% 0;
+}
+.pagination-block.-suppliers > .btn-next {
+	float: none;
+	background: url(../images/btn-pagination.png) no-repeat -11px 1px;
+	display: inline-block;
+}
+.pagination-block.-suppliers > .btn-prev {
+	float: none;
+	background: url(../images/btn-pagination.png) no-repeat 0 1px;
+	display: inline-block;
 }
 .pagination{
 	float:left;
@@ -1050,6 +1096,21 @@ fieldset {
 .breadcrumbs a{
 	color: #949494;
 }
+
+.breadcrumbs-new > a {
+	color: #424242;
+	text-transform: uppercase;
+	background: url(images/breadcrumbs-separator-2.png) no-repeat right center;
+	padding-right: 10px;
+	font-size: 12px;
+}
+
+.breadcrumbs-new > span {
+	color: #424242;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 12px;
+}
 .top-nav{
     margin:0;
     padding:0 0 20px;
@@ -1635,6 +1696,60 @@ fieldset {
     display: block;
     font-size: 22px;
     color: #e66100;
+}
+
+.suppliers {
+	border-bottom: 1px solid #e4e4e4;
+}
+
+.suppliers__item {
+	width: 170px;
+	float: left;
+	margin: 0 21px 25px 0;
+	height: 187px;
+}
+
+.suppliers__item:nth-child(4n) {
+	margin-right: 0;
+}
+
+.suppliers__item > a {
+	display: block;
+	color: #43a3c7;
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: bolder;
+	text-align: center;
+}
+
+.suppliers__item > img {
+	display: block;
+	margin: 0 auto 13px auto;
+}
+
+.suppliers-letters {
+	border-top: 1px solid #e4e4e4;
+	border-bottom: 1px solid #e4e4e4;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.letter {
+	display: inline-block;
+	color: #e66100;
+	text-transform: uppercase;
+	font-size: 16px;
+	padding: 2px 3px;
+}
+.letter.-active {
+	font-weight: bold;
+}
+.letter.-inactive {
+	color: #424242;
+}
+.letter.-inactive:hover {
+	text-decoration: none;
+	cursor: not-allowed;
 }
 .step{
     margin: 0 auto 20px;
