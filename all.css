@@ -2068,6 +2068,121 @@ fieldset {
     right: -50px;
 }
 
+.price-format {
+	width: 1010px;
+	height: 40px;
+	padding: 5px 0 5px 10px;
+	margin: 10px auto 0 auto;
+	background: #ffb151;
+	-o-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.price-format__delivery {
+	background: url(images/delivery.png) no-repeat left center;
+	padding-left: 50px;
+	padding-top: 5px;
+	height: 35px;
+	width: 200px;
+	float: left;
+}
+
+.price-format__delivery > h6 {
+	text-transform: uppercase;
+	font-size: 10px;
+	font-family: open_sansbold;
+	color: #000000;
+	font-weight: bold;
+	margin: 0;
+}
+
+.price-format__delivery > span {
+	font-family: open_sanslight;
+	text-transform: uppercase;
+	color: #ffffff;
+	text-decoration: underline;
+	font-size: 10px;
+	cursor: pointer;
+}
+
+.price-format__delivery > span.active,
+.price-format__delivery > span.delimiter {
+	font-family: open_sansregular;
+	text-decoration: none;
+	color: #000000;
+	cursor: default;
+}
+
+.price-format__delivery-adress {
+	float: left;
+	margin-top: 8px;
+	height: 28px;
+}
+
+.price-format__delivery-adress > ul {
+	list-style: none;
+	margin: 0;
+	overflow: hidden;
+	background: #ffffff url('images/btn-select.png') no-repeat 115px 12px;
+	padding: 5px 10px 5px 10px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	border: 1px solid #fb801f;
+	height: 16px;
+	position: relative;
+	z-index: 100;
+	cursor: pointer;
+	-webkit-transition: all 0.4s ease;
+	-moz-transition: all 0.4s ease;
+	-ms-transition: all 0.4s ease;
+	-o-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+}
+
+.price-format__delivery-adress > ul:hover {
+	height: 48px;
+	overflow-y: scroll;
+}
+
+.price-format__delivery-adress > ul > li {
+	color: #666666;
+	width: 100%;
+	-webkit-transition: all 0.4s ease;
+	-moz-transition: all 0.4s ease;
+	-ms-transition: all 0.4s ease;
+	-o-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+}
+
+.price-format__delivery-adress > ul > li:hover {
+	text-decoration: none;
+	color: #fb801f;
+	background: #ccc;
+}
+
+.price-format__delivery-adress > ul > li > a {
+	font-family: open_sanslight;
+	font-size: 10px;
+	color: inherit;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+.price-format__to {
+	float: left;
+	font-family: open_sansbold;
+	font-size: 10px;
+	font-weight: bold;
+	text-transform: uppercase;
+	height: 100%;
+	padding: 16px 0 0 0;
+	margin-right: 10px;
+
+}
+
 .registration-popup .btn-submit{
 	margin: 20px 0 40px;
 }
