@@ -254,6 +254,88 @@ fieldset {
 	border-radius: 3px;
 	box-shadow: 0 0 10px #d6d5d5;
 }
+
+#content.-product > .product > h1 {
+	clear: both;
+	font-family: open_sansregular;
+	font-size: 16px;
+	text-transform: uppercase;
+	margin: 0;
+}
+
+#content.-product .product__description {
+	width: 500px;
+	float: left;
+}
+
+#content.-product .product__description > h1 {
+	font-family: open_sanslight;
+	font-size: 20px;
+	color: #000000;
+	text-transform: uppercase;
+	margin-bottom: 15px;
+}
+
+#content.-product .product__description > h2 {
+	font-family: open_sansregular;
+	font-size: 16px;
+	line-height: 16px;
+	text-transform: uppercase;
+	margin: 0 0 15px 0;
+	padding: 0;
+	border: none;
+}
+
+#content.-product .product__description > h2 > span {
+	font-family: open_sanslight;
+	font-size: 14px;
+	line-height: 14px;
+	color: #000000;
+	text-transform: none;
+}
+
+#content.-product .product__description > p {
+	margin: 0 0 15px 0;
+	padding: 0 0 0 20px;
+	font-family: open_sansbold;
+	font-size: 12px;
+	color: #000000;
+	font-weight: bold;
+}
+
+#content.-product .product__description > p > span {
+	font-family: open_sanslight;
+	font-weight: normal;
+}
+
+#content.-product .product__description > .b {
+	background: url(images/box.png) no-repeat left center;
+}
+
+#content.-product .product__description > .w {
+	background: url(images/w.png) no-repeat left center;
+}
+
+#content.-product .product__img {
+	width: 360px;
+	padding: 0 20px 20px 0;
+	text-align: left;
+	float: left;
+}
+
+#content.-product .product__price {
+	width: 100px;
+	float: left;
+}
+
+#content.-product > .price-format {
+	width: auto;
+}
+
+#content.-product > .price-format > .price-format__summ {
+	margin-left: 20px;
+}
+
 .top-bar .image-holder{
     float: left;
 }
@@ -1167,6 +1249,7 @@ fieldset {
 .top-bar p a:hover{
     text-decoration: none;
 }
+
 .search-panel{
     padding:4px 4px 4px 60px;
     margin:0 0 10px;
@@ -2075,7 +2158,7 @@ fieldset {
 	width: 1010px;
 	height: 40px;
 	padding: 5px 0 5px 10px;
-	margin: 10px auto 0 auto;
+	margin: 10px auto 10px auto;
 	background: #ffb151;
 	-o-border-radius: 5px;
 	-moz-border-radius: 5px;
@@ -2192,7 +2275,6 @@ fieldset {
 	padding: 5px 0 0 40px;
 	margin: 0 0 0 25px;
 	height: 35px;
-	width: 530px;
 	float: left;
 }
 
@@ -2214,11 +2296,12 @@ fieldset {
 
 .price-format__summ > h1 {
 	font-family: open_sansbold;
-	font-size: 10px;
+	font-size: 10px !important;
 	width: 120px;
 	margin: 0 20px 0 0;
 	text-transform: uppercase;
 	float: left;
+	color: #000000 !important;
 }
 
 .price-format__to {
