@@ -429,7 +429,7 @@ background-image: linear-gradient(to bottom, #f4f4f4, #e4e4e4);
 }
 
 .product-list .store-block {
-width: 200px;
+width: 345px;
 padding: 0;
 }
 
@@ -1585,10 +1585,22 @@ a.icon-clip {
 }
 
 .new-button-add-cart {
-	float: right;
-	margin: 0 0 12px;
+	float: left;
 	color: #333 !important;
-	text-decoration:none !important;
+	text-decoration: none !important;
+	font-family: open_sanslight;
+	font-size: 12px;
+	height: 36px;
+	margin: 0 0 0 10px;
+	padding: 9px 20px 0 20px;
+	background: -moz-linear-gradient(top,  rgba(255,224,139,0.9) 0%, rgba(255,177,81,1) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,224,139,0.9)), color-stop(100%,rgba(255,177,81,1)));
+	background: -webkit-linear-gradient(top,  rgba(255,224,139,0.9) 0%,rgba(255,177,81,1) 100%);
+	background: -o-linear-gradient(top,  rgba(255,224,139,0.9) 0%,rgba(255,177,81,1) 100%);
+	background: -ms-linear-gradient(top,  rgba(255,224,139,0.9) 0%,rgba(255,177,81,1) 100%);
+	background: linear-gradient(to bottom,  rgba(255,224,139,0.9) 0%,rgba(255,177,81,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6ffe08b', endColorstr='#ffb151',GradientType=0 );
+
 }
 
 .display-options {
