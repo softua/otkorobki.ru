@@ -263,6 +263,12 @@ fieldset {
 	margin: 0;
 }
 
+#content.-product .price-format > .price-format__summ > a {
+	background: none;
+	padding-top: 7px;
+	cursor: default;
+}
+
 #content.-product .product__description {
 	width: 500px;
 	float: left;
@@ -317,15 +323,37 @@ fieldset {
 }
 
 #content.-product .product__img {
-	width: 360px;
+	width: 300px;
 	padding: 0 20px 20px 0;
 	text-align: left;
 	float: left;
 }
 
 #content.-product .product__price {
-	width: 100px;
+	width: 160px;
 	float: left;
+}
+
+#content.-product .product__price > h1 {
+	font-family: open_sanssemibold;
+	font-size: 24px;
+	font-weight: bolder;
+}
+
+#content.-product .product__price > .soc > a {
+	display: block;
+	width: 49px;
+	height: 40px;
+	float: left;
+}
+
+#content.-product .product__price > .soc > .fb {
+	background: url(images/fb.png) no-repeat center;
+}
+
+#content.-product .product__price > .soc > .vk {
+	background: url(images/vk.png) no-repeat center;
+	margin-right: 10px;
 }
 
 #content.-product > .price-format {
@@ -408,6 +436,15 @@ fieldset {
 	float:left;
 	margin: 0 10px 0 0;
 }
+
+.show-all-suppliers {
+	font-family: open_sanslight;
+	font-size: 20px;
+	font-weight: normal;
+	color: #43a3c7;
+	text-decoration: underline;
+}
+
 .right-bar{
 	float: right;
 }
@@ -1743,6 +1780,111 @@ fieldset {
     float: none;
     text-align:right;
 }
+
+.product-suppliers {
+	list-style: none;
+	padding: 0;
+}
+
+.product-suppliers > li {
+	padding-bottom: 15px;
+}
+
+.product-suppliers__item {
+	border-bottom: 1px solid #dfdfdf;
+	margin-bottom: 10px;
+}
+
+.product-suppliers__item__block-name {
+	width: 445px;
+	float: left;
+}
+
+.product-suppliers__item__block-name > a {
+	font-family: open_sansbold;
+	font-weight: bolder;
+	font-size: 16px;
+	color: #43a3c7;
+}
+
+.product-suppliers__item__block-name > span {
+	font-family: open_sanssemibold;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.product-suppliers__item__block-name > .contacts {
+	background: url(images/ico-contact.png) no-repeat left center;
+	padding: 5px 0 5px 15px;
+	margin-left: 17px;
+	font-family: open_sanslight;
+	font-size: 10px;
+	font-weight: normal;
+
+}
+
+.product-suppliers__item__block-prices {
+	float: left;
+	width: 535px;
+}
+
+.product-suppliers__item__block-prices table {
+	width: 100%;
+	/*margin-bottom: 10px;*/
+}
+
+.product-suppliers__item__block-prices th {
+	font-family: open_sansbold;
+	font-size: 12px;
+	padding: 5px 0 5px 25px;
+	width: 115px;
+}
+
+.product-suppliers__item__block-prices td {
+	font-family: open_sanslight;
+	font-size: 12px;
+	text-align: center;
+}
+
+.product-suppliers__item__block-prices .one-peace {
+	background: url(images/bg-weight.png) no-repeat left center;
+}
+
+.product-suppliers__item__block-prices .package {
+	background: url(images/bg-weight-packing.png) no-repeat left center;
+}
+
+.product-suppliers__item__block-prices .delivery-price {
+	background: url(images/bg-delivery2.png) no-repeat left center;
+}
+
+.product-suppliers__item__block-prices__order {
+	display: block;
+	float: right;
+	width: 215px;
+	height: 35px;
+	font-family: open_sansregular;
+	font-size: 12px;
+	line-height: 270%;
+	text-align: center;
+	text-decoration: none;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	background: -moz-linear-gradient(top,  rgba(255,226,147,0.9) 0%, rgba(255,182,93,1) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,226,147,0.9)), color-stop(100%,rgba(255,182,93,1)));
+	background: -webkit-linear-gradient(top,  rgba(255,226,147,0.9) 0%,rgba(255,182,93,1) 100%);
+	background: -o-linear-gradient(top,  rgba(255,226,147,0.9) 0%,rgba(255,182,93,1) 100%);
+	background: -ms-linear-gradient(top,  rgba(255,226,147,0.9) 0%,rgba(255,182,93,1) 100%);
+	background: linear-gradient(to bottom,  rgba(255,226,147,0.9) 0%,rgba(255,182,93,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6ffe293', endColorstr='#ffb65d',GradientType=0 );
+}
+
+.product-suppliers__item__block-prices__order:hover {
+	text-decoration: none;
+	background: #ffb65d;
+}
+
 #header .btn-back{
     text-transform:uppercase;
     background: url(../images/btn-back.png) no-repeat 0 60%;
