@@ -23,7 +23,7 @@ body {
 }
 
 .table-control h1,h2,.menu li a,.settings-panel p a,.h2-span,.personal-data h5,.carousel-block h1,.carousel-block p,.carousel-l-l,.carousel-l-r
-	{
+{
 	font-family: Georgia, Utopia, Palatino, 'Palatino Linotype', serif;
 }
 
@@ -32,7 +32,7 @@ a {
 	cursor: pointer;
 }
 
-/*a:link { color:#1f83b7; } 
+/*a:link { color:#1f83b7; }
 a:visited { color:#1f83b7; } */
 a:hover {
 	color: #ff1800;
@@ -456,7 +456,7 @@ h4 {
 }
 
 .sidebar ul.side-menu {
-	
+
 }
 
 .sidebar ul.side-menu a {
@@ -831,7 +831,7 @@ tr th a {
 }
 
 .login-form input,.input-element input,.input-element textarea,.input-element select,.popup-block input,.popup-block select,.popup-block textarea,.buyblock input,.input-element2 input,.input-element2 textarea,.input-element2 select,.edit-cell input,.base-price-wizard-cell input
-	{
+{
 	border: 1px solid #CECECE;
 	border-radius: 4px;
 	box-shadow: 0 5px 5px #EEEEEE inset;
@@ -989,7 +989,7 @@ label sup {
 }
 
 .popup-block.help {
-	
+
 }
 
 .popup-block a.cross {
@@ -1354,7 +1354,7 @@ span.centered {
 }
 
 .switch img {
-	
+
 }
 
 .switch a {
@@ -1642,7 +1642,7 @@ ul.graylist p {
 }
 
 .product .right {
-	
+
 }
 
 .product .h1header {
@@ -1794,20 +1794,20 @@ a.blacklink {
 }
 
 .product-entry .image {
-	
+
 	cursor:pointer;
 }
 
 .product-entry
 :nth-child
 (2n
-+
+  +
 1)
 {
-background-color
-:
- 
-#f5f5f5
+	background-color
+	:
+
+		#f5f5f5
 ;
 
 
@@ -1930,7 +1930,7 @@ p.smallorange {
 }
 
 .stock-price .wanna-more {
-	
+
 	color:black; font-size:11px; font-weight: normal;
 }
 
@@ -1978,11 +1978,11 @@ a.graybutton {
 	padding: 6px 12px;
 	background: -moz-linear-gradient(top, #ffffff 0%, #dbdbdb);
 	background: -webkit-gradient(linear, left top, left bottom, from(#ffffff),
-		to(#dbdbdb) );
+	to(#dbdbdb) );
 	border-radius: 0px;
 	border: 1px solid #666666;
 	box-shadow: 0px 2px 2px rgba(000, 000, 000, 0.2), inset 0px 0px 2px
-		rgba(255, 255, 255, 0.8);
+	rgba(255, 255, 255, 0.8);
 	font-weight: bold;
 }
 
@@ -2127,7 +2127,7 @@ a.writemanufacturer {
 .select-4 {
 	width: 210px !important;
 	background: transparent url('i/darrow.png') no-repeat 206px 13px
-		!important;
+	!important;
 	padding: 5px 5px 3px 5px !important;
 }
 
@@ -2589,7 +2589,7 @@ td.datePickerMonth {
 }
 
 .gwt-SliderBar-shell-focused {
-	
+
 }
 
 .gwt-SliderBar-shell .gwt-SliderBar-line-sliding {
@@ -2682,7 +2682,7 @@ td.datePickerMonth {
 }
 
 .gwt-SuggestBoxPopup .suggestPopupTopCenterInner,.gwt-SuggestBoxPopup .suggestPopupBottomCenterInner
-	{
+{
 	height: 1px;
 	line-height: 1px;
 }
@@ -2696,7 +2696,7 @@ td.datePickerMonth {
 }
 
 .gwt-SuggestBoxPopup .suggestPopupMiddleLeftInner,.gwt-SuggestBoxPopup .suggestPopupMiddleRightInner
-	{
+{
 	width: 1px;
 	line-height: 1px;
 }
@@ -3157,7 +3157,7 @@ td.datePickerMonth {
 }
 
 .catalogue {
-	
+
 }
 
 .catalogue    .list {
@@ -3231,7 +3231,7 @@ td.datePickerMonth {
 }
 
 .catalogue    .branch    .leaf.selected,.catalogue    .branch    .leaf:hover
-	{
+{
 	background: #6c6f70;
 	color: #fff;
 	text-decoration: none;
@@ -3335,7 +3335,7 @@ td.datePickerMonth {
 }
 
 .GWTUpld .upld-status .status-error,.GWTUpld .upld-status .status-canceled
-	{
+{
 	color: red;
 }
 
@@ -3748,7 +3748,7 @@ table.data tr td.base-price {
 }
 /* Retrodefine hovers */
 .in-in-groups h3 a:hover,.region-select .orange a:hover,.groups>ul li a:hover,.in-groups>ul li a:hover
-	{
+{
 	color: red;
 }
 
@@ -3774,7 +3774,7 @@ table.data tr td.table-control-block {
 }
 
 .table-control-block input,.table-control-block .double-dropdown,.table-control-block .dropdown
-	{
+{
 	display: inline-block;
 	border: 1px solid #CECECE;
 	border-radius: 4px 4px 4px 4px;
@@ -3898,7 +3898,7 @@ table tr td.category-name small {
 
 /* Настройка цен - выбор регионов */
 .groups-checkboxes {
-	
+
 }
 
 .g-checkbox2 {
@@ -3941,7 +3941,7 @@ a.g-checkbox.selected {
 
 /* Поставщик */
 .postavchik {
-	
+
 }
 
 .postavchik .sidebar h3 {
@@ -4310,7 +4310,7 @@ table  tr.clickable {
 
 /* Таблица заказов */
 .orders-table {
-	
+
 }
 
 .orders-table tr.big-th th {
@@ -4428,7 +4428,7 @@ tr.total td {
 }
 
 .form-column .select-white,.form-column input {
-	
+
 }
 
 .customListBoxPopup {
@@ -4729,7 +4729,7 @@ tr.total td {
 
 .ui-widget-content {
 	background: #ffffff url(images/ui-bg_flat_75_ffffff_40x100.png) 50% 50%
-		repeat-x;
+	repeat-x;
 	color: #222222;
 }
 
@@ -4741,9 +4741,9 @@ tr.total td {
 .ui-tabs {
 	position: relative;
 	position: relative prevents IE scroll
-		bug(element with position :      relative inside container with overflow
-		: 
-		    auto appear as "fixed");
+	bug(element with position :      relative inside container with overflow
+	:
+	auto appear as "fixed");
 	padding: .2em;
 }
 
@@ -4864,7 +4864,7 @@ tr.total td {
 }
 
 .ui-state-active,.ui-widget-content .ui-state-active,.ui-widget-header .ui-state-active
-	{
+{
 	font-weight: normal;
 	color: #212121;
 }
@@ -4912,7 +4912,7 @@ tr.total td {
 .ui-widget-content {
 	border: 1px solid #aaaaaa;
 	background: #ffffff url(images/ui-bg_flat_75_ffffff_40x100.png) 50% 50%
-		repeat-x;
+	repeat-x;
 	color: #222222;
 }
 
@@ -4955,17 +4955,17 @@ tr.total td {
 }
 
 .ui-tabs .ui-tabs-nav li.ui-tabs-active a,.ui-tabs .ui-tabs-nav li.ui-state-disabled a,.ui-tabs .ui-tabs-nav li.ui-tabs-loading a
-	{
+{
 	cursor: text;
 }
 
 .ui-tabs .ui-tabs-nav li.ui-tabs-active a,.ui-tabs .ui-tabs-nav li.ui-state-disabled a,.ui-tabs .ui-tabs-nav li.ui-tabs-loading a
-	{
+{
 	cursor: text;
 }
 
 .ui-tabs .ui-tabs-nav li a,.ui-tabs-collapsible .ui-tabs-nav li.ui-tabs-active a
-	{
+{
 	cursor: pointer;
 }
 
@@ -4986,13 +4986,13 @@ tr.total td {
 }
 
 .ui-state-default a,.ui-state-default a:link,.ui-state-default a:visited
-	{
+{
 	color: #555555;
 	text-decoration: none;
 }
 
 .ui-state-default a,.ui-state-default a:link,.ui-state-default a:visited
-	{
+{
 	color: #555555;
 	text-decoration: none;
 }
@@ -5003,7 +5003,7 @@ tr.total td {
 }
 
 .ui-state-default a,.ui-state-default a:link,.ui-state-default a:visited
-	{
+{
 	color: #555555;
 	text-decoration: none;
 }
@@ -5158,49 +5158,49 @@ tr.total td {
 }
 
 .line-manuf {
-width: 128px;
-display: block;
-float: left;
-text-align: center;
-margin: 0 6px;
+	width: 128px;
+	display: block;
+	float: left;
+	text-align: center;
+	margin: 0 6px;
 }
 
 .line-manuf .manuf-info {
-text-align: center!important;
+	text-align: center!important;
 }
 
 .manuf-info {
-font-size: 9px;
-color: #787878;
-line-height: 15px;
-float: left;
-line-height: 13px;
-font-family: Tahoma, Verdana, Arial!important;
-text-align: left;
-width: 100%;
+	font-size: 9px;
+	color: #787878;
+	line-height: 15px;
+	float: left;
+	line-height: 13px;
+	font-family: Tahoma, Verdana, Arial!important;
+	text-align: left;
+	width: 100%;
 }
 
 .line-manuf .manuf-info b {
-font-size: 10px;
-color: #000;
-font-family: Tahoma, Verdana, Arial!important;
+	font-size: 10px;
+	color: #000;
+	font-family: Tahoma, Verdana, Arial!important;
 }
 .manuf-info b {
-font-size: 8px!important;
-font-family: Tahoma, Verdana, Arial!important;
+	font-size: 8px!important;
+	font-family: Tahoma, Verdana, Arial!important;
 }
 
 .line-manuf a {
-width: 100%;
-text-align: center;
-font-size: 12px;
-text-transform: uppercase;
-color: #000;
-line-height: 16px;
-float: left;
-height: 136px;
-font-weight: bold;
-font-family: Tahoma, Verdana, Arial!important;
+	width: 100%;
+	text-align: center;
+	font-size: 12px;
+	text-transform: uppercase;
+	color: #000;
+	line-height: 16px;
+	float: left;
+	height: 136px;
+	font-weight: bold;
+	font-family: Tahoma, Verdana, Arial!important;
 }
 
 .line-manuf a img {
@@ -5209,25 +5209,25 @@ font-family: Tahoma, Verdana, Arial!important;
 }
 
 .all-this {
-float: right;
-text-decoration: underline;
-font-size: 13px;
-font-weight: bold;
-color: #000;
-font-style: normal;
-font-family: Tahoma, Verdana, Arial!important;
+	float: right;
+	text-decoration: underline;
+	font-size: 13px;
+	font-weight: bold;
+	color: #000;
+	font-style: normal;
+	font-family: Tahoma, Verdana, Arial!important;
 }
 
 .new-distr {
-float: right;
-color: #f6893a;
-font-size: 20px;
-font-style: italic;
-font-family: Georgia, Verdana, Arial!important;
+	float: right;
+	color: #f6893a;
+	font-size: 20px;
+	font-style: italic;
+	font-family: Georgia, Verdana, Arial!important;
 }
 
 .tpadding-20 {
-padding-top: 20px;
+	padding-top: 20px;
 }
 
 .main-content {
@@ -5236,7 +5236,7 @@ padding-top: 20px;
 	color: #686868;
 	font-weight: normal;
 	line-height: 13px;
-	}
+}
 .main-content h2{
 	margin-top: 15px;
 	margin-bottom: 10px;
@@ -5249,8 +5249,8 @@ padding-top: 20px;
 .store-list-header {margin-top:30px;}
 
 .rec-price {color: red;
-margin-left: 7px;
-margin-top: 5px;}
+	margin-left: 7px;
+	margin-top: 5px;}
 
 .rec-price-pack {
 	color: red;

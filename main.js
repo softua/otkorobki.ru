@@ -261,31 +261,31 @@ function yandexMetrics (d, w, c) {
 };
 
 function selectTab(tab) {
-	  
+
 	  if (tab == 1) {
-		  
+
 		  document.getElementById('ui-id-1').className="ui-state-default ui-corner-top ui-tabs-active ui-state-active";
 		  document.getElementById('ui-id-2').className="ui-state-default ui-corner-top";
 		  document.getElementById('ui-id-3').className="ui-state-default ui-corner-top";
-		  
+
 		  document.getElementById('tabs-1').style.display="block";
 		  document.getElementById('tabs-2').style.display="none";
 		  document.getElementById('tabs-3').style.display="none";
 	  } else if (tab == 2) {
-		  
+
 		  document.getElementById('ui-id-1').className="ui-state-default ui-corner-top";
 		  document.getElementById('ui-id-2').className="ui-state-default ui-corner-top ui-tabs-active ui-state-active";
 		  document.getElementById('ui-id-3').className="ui-state-default ui-corner-top";
-		  
+
 		  document.getElementById('tabs-1').style.display="none";
 		  document.getElementById('tabs-2').style.display="block";
 		  document.getElementById('tabs-3').style.display="none";
 	  } else {
-		  
+
 		  document.getElementById('ui-id-1').className="ui-state-default ui-corner-top";
 		  document.getElementById('ui-id-2').className="ui-state-default ui-corner-top";
 		  document.getElementById('ui-id-3').className="ui-state-default ui-corner-top ui-tabs-active ui-state-active";
-		  
+
 		  document.getElementById('tabs-1').style.display="none";
 		  document.getElementById('tabs-2').style.display="none";
 		  document.getElementById('tabs-3').style.display="block";
@@ -293,7 +293,7 @@ function selectTab(tab) {
 };
 
 function gotoPage(page) {
-	
+
 	pageInt = parseInt(page);
 	if (isNaN(pageInt)) {
 		pageInt = 1;
@@ -398,7 +398,7 @@ document.getElementById('delfilter-popup').style.display='none';
 };
 
 function showSortPopup(left, top) {
-	
+
 	el = document.getElementById('sortfilter-popup');
 	el.style.display='block';
 	el.style.left = left + "px";
@@ -406,21 +406,21 @@ function showSortPopup(left, top) {
 };
 
 function showDeliveryPopupAndReload() {
-	 
+
 	 el = document.getElementById('currentDeliveryAddress');
-	 
+
 	  if (el.innerText == undefined || el.innerText.length == 0) {
-		  
+
 		  daWidget = document.getElementById('delivery-address-widget');
 		  window.showDistrictsPopupAndReload(daWidget.offsetLeft + 34, daWidget.offsetTop);
 	  } else {
-		  
+
 		  changeFilter('delivery', 1);
 	  }
 };
 
 function showPriceRanges(storeId, goodsId, regionId, packageSize) {
-	
+
 	if (document.getElementById(storeId + '-' + goodsId).innerText.length == 0) {
 		document.getElementById('wannaMoreLink-' + storeId + '-' + goodsId).innerText='Скрыть';
 		window.loadPrices(storeId, goodsId, regionId, packageSize);
@@ -428,11 +428,11 @@ function showPriceRanges(storeId, goodsId, regionId, packageSize) {
 		document.getElementById('wannaMoreLink-' + storeId + '-' + goodsId).innerText='Хотите дешевле?';
 		document.getElementById(storeId + '-' + goodsId).innerText='';
 	}
-	
+
 };
 
 function addSearchEventListeners() {
-	
+
 	manfilterDiv = document.getElementById("manfilter");
 	if (manfilterDiv != undefined) {
 		manfilterDiv.addEventListener('mouseout', hideManFilterPopup, true);
@@ -452,7 +452,7 @@ function addSearchEventListeners() {
 
 
 function addOrderItem(add, goodsId) {
-	
+
 	el = document.getElementById('orderItemCount-' + goodsId);
 	if (add) {
 		el.value=(parseInt(el.value) + 1) + '';
@@ -485,7 +485,7 @@ function gotoWelcomePage(catId, page) {
 };
 
 function addSubscriber(email, regionId) {
-	
+
 	 window.saveSubscriber(email, regionId);
 	 document.getElementById('subscriberBox').style.display='none';
 	 document.getElementById('subscriberBtn').style.display='none';
@@ -502,12 +502,12 @@ function gotoManPage(manId, catId, page) {
 };
 
 function checkEnter(e) {
-	
+
 	if (e.keyCode == 13) {
 		window.loginAsync(document.getElementById('j_username').value, document.getElementById('j_password').value);
     }
 	};
-	
+
 function gotoCatPage(catId, page) {
 		pageInt = parseInt(page);
 		if (isNaN(pageInt)) {
@@ -518,39 +518,39 @@ function gotoCatPage(catId, page) {
 };
 
 function showPanel(id, show) {
-	 
+
 	  if (show) {
-		  
+
 		  document.getElementById(id).style.display='block';
 	  } else {
-		  
+
 		  document.getElementById(id).style.display='none';
 	  }
 };
 
 function showPanelAndHidePrev(id, show) {
-	
+
 	if (window.prevPanelId != undefined) {
 		prev = document.getElementById(window.prevPanelId);
 		if (prev != undefined) {
-			
+
 			 prev.style.display='none';
 		}
 	}
-	
+
 	el = document.getElementById(id);
 	if (el != undefined) {
-		
+
 		  if (show) {
-			  
+
 			  el.style.display='block';
 			  window.prevPanelId=id;
 		  } else {
-			  
+
 			  el.style.display='none';
 		  }
 	}
-	  
+
 };
 
 function onCategoriesMenuMouseOut(event) {
@@ -563,14 +563,14 @@ function onCategoriesMenuMouseOut(event) {
 };
 
 function switchSliderItem(num) {
-	
+
 	if (num > 3) {
-		
+
 		num=1;
 	}
-	
+
 	for(var i=1; i < 4; i++) {
-		
+
 		if (i == num) {
 			document.getElementById("sliderItem" + i).style.display='block';
 			document.getElementById("sliderLink" + i).className='active';
@@ -583,14 +583,14 @@ function switchSliderItem(num) {
 };
 
 function switchGoodsSliderItem(num) {
-	
+
 	if (num > 6) {
-		
+
 		num=1;
 	}
-	
+
 	for(var i=1; i < 7; i++) {
-		
+
 		if (i == num) {
 			document.getElementById("goods-list-" + i).style.display='block';
 			document.getElementById("goodsSliderLink" + i).className='active';
@@ -603,19 +603,19 @@ function switchGoodsSliderItem(num) {
 };
 
 function switchHeaderItem(num) {
-	
+
 	if (num > 3) {
-		
+
 		num=1;
 	}
-	
+
 	if (num < 1) {
-		
+
 		num=3;
 	}
-	
+
 	for(var i=1; i < 4; i++) {
-		
+
 		if (i == num) {
 			document.getElementById("header-item-" + i).style.display='block';
 			window.currentHeaderItem = i;
@@ -626,29 +626,29 @@ function switchHeaderItem(num) {
 };
 
 function setVisible(id, visible) {
-	
+
 	el = document.getElementById(id);
 	if (visible) {
-		
+
 		el.style.display='block';
 	} else {
-		
+
 		el.style.display='none';
 	}
 };
 
 function setClassName(id, classname) {
-	
+
 	el = document.getElementById(id);
 	el.className=classname;
 };
 
 function updateTotalPrice(price, goodsId) {
-	
+
 	elCount = document.getElementById(goodsId + "-count");
 	var value = parseInt(elCount.value);
 	if (value < 1 || isNaN(value)) {
-		
+
 		value = 1;
 	}
 	elPrice = document.getElementById(goodsId + "-price");
@@ -658,37 +658,37 @@ function updateTotalPrice(price, goodsId) {
 }
 
 function addItem(price, goodsId, add) {
-	
+
 	elCount = document.getElementById(goodsId + "-count");
 	var value = parseInt(elCount.value);
 	if (add) {
-		
+
 		value = value + 1;
 	} else {
-		
+
 		value = value - 1;
 	}
 	if (value < 1 || isNaN(value)) {
-		
+
 		value = 1;
 	}
-	
+
 	elPrice = document.getElementById(goodsId + "-price");
 	var totalPrice = price * value;
 	elPrice.innerText=totalPrice.toFixed(2) + " р."
-	
+
 	elCount.value = value + "";
 }
 
 function selectSearchStore(storeId) {
-	
+
 	if (window.last_selected_store != undefined) {
-		
+
 		document.getElementById(window.last_selected_store).checked=false;
 	}
-	
+
 	window.last_selected_store = 'check-' + storeId;
-	
+
 	document.getElementById('store_id').value=storeId + "";
 }
 
@@ -711,7 +711,7 @@ function getX(oElement){
 }
 
 function stopVideo(id) {
-	
+
 	el = document.getElementById(id);
 	var url = el.getAttribute('src');
 	el.setAttribute('src', '');
