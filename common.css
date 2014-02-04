@@ -641,10 +641,7 @@ padding: 0;
 }
 
 .product-entry
-:nth-child
-(2n
-+
-1)
+:nth-child(2n+1)
 {
 background-color
 :
@@ -704,7 +701,7 @@ background-color
 .store-search-panel-line2 strong {
 	float:left;
     padding:0 0 0 30px;
-    background:url(../images/ico-sum.png) no-repeat;
+    background:url(images/ico-sum.png) no-repeat;
     max-width:105px;
     font-size: inherit;
     font-weight:bold;
