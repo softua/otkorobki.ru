@@ -4,5 +4,5 @@
  * Time: 23:51
  */
 (function() {
-
+	$('.popup-cart__block-items').perfectScrollbar();
 }());
