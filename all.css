@@ -1627,8 +1627,8 @@ fieldset {
 
 .popup-cart__block-delivery > .order-price > .title,
 .popup-cart__block-delivery > .order-price > .price {
-	font-family: open_sansregular;
-	font-size: 10px;
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 9px;
 	float: left;
 	height: 15px;
 	font-weight: normal;
@@ -1644,8 +1644,8 @@ fieldset {
 	background: none;
 	padding: 0;
 	color: #000;
-	font-family: "open_sansbold", sans-serif;
-	font-size: 10px;
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 9px;
 	font-weight: bold;
 	width: 100%;
 	float: none;
@@ -1681,16 +1681,16 @@ fieldset {
 
 .popup-cart__block-delivery__price-sum {
 	color: #000;
-	font-family: "open_sansbold", sans-serif;
-	font-size: 10px;
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 9px;
 	font-weight: bold;
 	text-transform: uppercase;
 	margin-top: 32px;
 }
 
 .popup-cart__block-delivery > .slogan {
-	font-family: open_sansbold;
-	font-size: 9px;
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 8px;
 	font-weight: bold;
 	letter-spacing: 0.02em;
 	word-spacing: 0.1em;
@@ -1828,8 +1828,8 @@ fieldset {
 }
 
 .popup-cart__block-items .item-title {
-	font-family: open_sansbold;
-	font-size: 12px;
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 11px;
 	font-weight: bold;
 	color: #50a9cb;
 	text-transform: uppercase;
@@ -1838,8 +1838,8 @@ fieldset {
 }
 
 .popup-cart__block-items .item-subtitle {
-	font-family: open_sansregular;
-	font-size: 14px;
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 13px;
 	line-height: 1;
 	font-weight: normal;
 	color: #000000;
@@ -1849,8 +1849,8 @@ fieldset {
 
 .popup-cart__order {
 	color: #000;
-	font-family: "open_sansbold", sans-serif;
-	font-size: 12px;
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 11px;
 	font-weight: bold;
 	text-transform: uppercase;
 	margin: 0 0 0 10px;
@@ -1858,16 +1858,16 @@ fieldset {
 
 .popup-cart__supplier {
 	color: #000;
-	font-family: "open_sanssemibold", sans-serif;
-	font-size: 12px;
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 11px;
 	font-weight: bold;
 	text-transform: uppercase;
 	margin: 0 0 0 10px;
 }
 
 .popup-cart__supplier__name {
-	font-family: "open_sanssemibold", sans-serif;
-	font-size: 12px;
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 11px;
 	font-weight: bold;
 	text-transform: uppercase;
 	text-decoration: underline;
@@ -1886,19 +1886,18 @@ fieldset {
 .popup-cart__total-data > .total-data__text th {
 	text-align: left;
 	width: 125px;
-	font-family: open_sansbold;
-	font-size: 12px;
-	line-height: 14px;
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 11px;
+	line-height: 13px;
 	text-transform: uppercase;
 }
 
 .popup-cart__total-data > .total-data__text td {
 	text-align: left;
-	font-family: open_sanssemibold;
-	font-size: 12px;
-	line-height: 12px;
-	color: #43a3c7;
-	text-decoration: underline;
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 11px;
+	line-height: 11px;
+	color: #000000;
 }
 
 .popup-cart__total-data > .total-data__btn-order {
@@ -1914,9 +1913,9 @@ fieldset {
 	background-image: -o-linear-gradient(bottom, #ffb151 0%, #ffdf8a 99.22%, #ffdf8a 100%);
 	background-image: -webkit-linear-gradient(bottom, #ffb151 0%, #ffdf8a 99.22%, #ffdf8a 100%);
 	background-image: linear-gradient(bottom, #ffb151 0%, #ffdf8a 99.22%, #ffdf8a 100%);
-	font-family: open_sansregular;
+	font-family: Verdana, Arial, sans-serif;
 	font-size: 12px;
-	padding: 5px 17px;
+	padding: 5px 12px;
 	border: none;
 	box-shadow: none;
 	margin: 8px 0 0 16px;
@@ -2674,8 +2673,8 @@ fieldset {
 	list-style: none;
 	float: left;
 	margin: 0 10px 0 0;
-	font-family: open_sanslight;
-	font-size: 9px;
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 8px;
 	width: 40px;
 }
 
