@@ -257,7 +257,7 @@ fieldset {
 
 #content.-product > .product > h1 {
 	clear: both;
-	font-family: open_sansregular;
+	font-family: Verdana, Arial, sans-serif;
 	font-size: 16px;
 	text-transform: uppercase;
 	margin: 0;
@@ -275,7 +275,7 @@ fieldset {
 }
 
 #content.-product .product__description > h1 {
-	font-family: open_sanslight;
+	font-family: Verdana, Arial, sans-serif;
 	font-size: 20px;
 	color: #000000;
 	text-transform: uppercase;
@@ -283,7 +283,7 @@ fieldset {
 }
 
 #content.-product .product__description > h2 {
-	font-family: open_sansregular;
+	font-family: Verdana, Arial, sans-serif;
 	font-size: 16px;
 	line-height: 16px;
 	text-transform: uppercase;
@@ -293,7 +293,7 @@ fieldset {
 }
 
 #content.-product .product__description > h2 > span {
-	font-family: open_sanslight;
+	font-family: Verdana, Arial, sans-serif;
 	font-size: 14px;
 	line-height: 14px;
 	color: #000000;
@@ -303,14 +303,14 @@ fieldset {
 #content.-product .product__description > p {
 	margin: 0 0 15px 0;
 	padding: 0 0 0 20px;
-	font-family: open_sansbold;
+	font-family: Verdana, Arial, sans-serif;
 	font-size: 12px;
 	color: #000000;
 	font-weight: bold;
 }
 
 #content.-product .product__description > p > span {
-	font-family: open_sanslight;
+	font-family: Verdana, Arial, sans-serif;
 	font-weight: normal;
 }
 
@@ -335,8 +335,8 @@ fieldset {
 }
 
 #content.-product .product__price > h1 {
-	font-family: open_sanssemibold;
-	font-size: 24px;
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 19px;
 	font-weight: bolder;
 }
 
@@ -442,7 +442,7 @@ fieldset {
 }
 
 .show-all-suppliers {
-	font-family: open_sanslight;
+	font-family: Verdana, Arial, sans-serif;
 	font-size: 20px;
 	font-weight: normal;
 	color: #43a3c7;
@@ -790,7 +790,7 @@ fieldset {
 }
 
 .order-list .item-total-price {
-	font-family: open_sansregular !important;
+	font-family: Verdana, Arial, sans-serif !important;
 	font-size: 14px !important;
 	font-weight: bold !important;
 	margin: 8px 0 0 166px !important;
@@ -994,6 +994,7 @@ fieldset {
 	overflow: hidden;
 	width: 100%;
 	padding: 0 0 16px;
+	margin-top: 40px;
 }
 .partners-block .container{
 	overflow: hidden;
@@ -1662,7 +1663,7 @@ fieldset {
 }
 
 .popup-cart__block-delivery > .price-format__delivery > span {
-	font-size: 10px;
+	font-size: 8px;
 	font-weight: normal;
 }
 
@@ -1679,7 +1680,7 @@ fieldset {
 	background: url(images/ico-truck5.png) no-repeat 0 7px;
 	height: auto;
 	vertical-align: top;
-	padding: 13px 0 0 35px;
+	padding: 13px 0 0 32px;
 	margin-top: -5px;
 }
 
@@ -2172,14 +2173,14 @@ fieldset {
 }
 
 .product-suppliers__item__block-name > a {
-	font-family: open_sansbold;
+	font-family: Verdana, Arial, sans-serif;
 	font-weight: bolder;
 	font-size: 16px;
 	color: #43a3c7;
 }
 
 .product-suppliers__item__block-name > span {
-	font-family: open_sanssemibold;
+	font-family: Verdana, Arial, sans-serif;
 	font-size: 16px;
 	font-weight: bold;
 }
@@ -2188,7 +2189,7 @@ fieldset {
 	background: url(images/ico-contact.png) no-repeat left center;
 	padding: 5px 0 5px 15px;
 	margin-left: 17px;
-	font-family: open_sanslight;
+	font-family: Verdana, Arial, sans-serif;
 	font-size: 10px;
 	font-weight: normal;
 
@@ -2205,14 +2206,14 @@ fieldset {
 }
 
 .product-suppliers__item__block-prices th {
-	font-family: open_sansbold;
+	font-family: Verdana, Arial, sans-serif;
 	font-size: 12px;
 	padding: 5px 0 5px 25px;
 	width: 115px;
 }
 
 .product-suppliers__item__block-prices td {
-	font-family: open_sanslight;
+	font-family: Verdana, Arial, sans-serif;
 	font-size: 12px;
 	text-align: center;
 }
@@ -2234,7 +2235,7 @@ fieldset {
 	float: right;
 	width: 215px;
 	height: 35px;
-	font-family: open_sansregular;
+	font-family: Verdana, Arial, sans-serif;
 	font-size: 12px;
 	line-height: 270%;
 	text-align: center;
@@ -2721,24 +2722,24 @@ fieldset {
 .price-format__delivery > h6 {
 	text-transform: uppercase;
 	font-size: 10px;
-	font-family: open_sansbold;
+	font-family: Verdana, Arial, sans-serif;
 	color: #000000;
 	font-weight: bold;
 	margin: 0;
 }
 
 .price-format__delivery > span {
-	font-family: open_sanslight;
+	font-family: Verdana, Arial, sans-serif;
 	text-transform: uppercase;
 	color: #ffffff;
 	text-decoration: underline;
-	font-size: 10px;
+	font-size: 8px;
 	cursor: pointer;
 }
 
 .price-format__delivery > span.active,
 .price-format__delivery > span.delimiter {
-	font-family: open_sansregular;
+	font-family: Verdana, Arial, sans-serif;
 	text-decoration: none;
 	color: #000000;
 	cursor: default;
@@ -2757,7 +2758,7 @@ fieldset {
 	display: block;
 	background: #ffffff url('images/btn-select.png') no-repeat 131px 10px;
 	color: #666666;
-	font-family: open_sanslight;
+	font-family: Verdana, Arial, sans-serif;
 	font-size: 10px;
 	text-transform: uppercase;
 	text-decoration: none;
@@ -2805,7 +2806,7 @@ fieldset {
 }
 
 .price-format__delivery-adress > ul > li > a {
-	font-family: open_sanslight;
+	font-family: Verdana, Arial, sans-serif;
 	font-size: 10px;
 	padding-left: 10px;
 	color: inherit;
@@ -2824,11 +2825,11 @@ fieldset {
 .price-format__summ > a {
 	display: block;
 	float: left;
-	font-family: open_sanslight;
-	font-size: 10px;
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 8px;
 	text-transform: uppercase;
 	text-decoration: none;
-	margin: 3px 20px 0 0;
+	margin: 3px 22px 0 0;
 	padding: 14px 0 0 0;
 	background: url(images/summ.png) no-repeat center top;
 }
@@ -2838,10 +2839,10 @@ fieldset {
 }
 
 .price-format__summ > h1 {
-	font-family: open_sansbold;
-	font-size: 10px !important;
-	width: 120px;
-	margin: 0 20px 0 0;
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 9px !important;
+	width: 152px;
+	margin: 2px 18px 0 0;
 	text-transform: uppercase;
 	float: left;
 	color: #000000 !important;
@@ -2849,7 +2850,7 @@ fieldset {
 
 .price-format__to {
 	float: left;
-	font-family: open_sansbold;
+	font-family: Verdana, Arial, sans-serif;
 	font-size: 10px;
 	font-weight: bold;
 	text-transform: uppercase;
