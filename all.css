@@ -753,6 +753,45 @@ fieldset {
 .nav-3 ul a:hover{
 	text-decoration: underline;
 }
+
+.order > .price-format {
+	width: 970px;
+	margin-bottom: 10px;
+}
+
+.order .price-format__summ > h1 {
+	margin: 2px 20px 0 0 !important;
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 9px !important;
+	width: 122px;
+}
+
+.order .price-amount {
+	width: 515px;
+}
+
+.order .price-amount__item {
+	width: 55px;
+	font-size: 10px;
+	margin: 2px 23px 0 0;
+	font-family: Verdana, Arial, sans-serif;
+}
+
+.order-list .block.store-block {
+	width: 580px !important;
+}
+
+.order-list .quantity {
+	padding: 0 0 0 33px !important;
+}
+
+.order-list .item-total-price {
+	font-family: open_sansregular !important;
+	font-size: 14px !important;
+	font-weight: bold !important;
+	margin: 8px 0 0 166px !important;
+}
+
 #sidebar h4{
 	padding:0 0 4px;
 	font-weight:normal;
