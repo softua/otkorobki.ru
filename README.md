@@ -54,3 +54,5 @@ otkorobki.ru
 9. https://dl.dropboxusercontent.com/u/26065924/ok/otk_2_003_poisk_4_tovar_n_seo.jpg
 -
 Здесь на странице категории ниже списка товаров появился блочок с описывающим текстом. нужен этот блочок.
+РЕЗУЛЬТАТ: http://85.238.104.57/category.html
+-

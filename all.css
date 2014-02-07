@@ -665,6 +665,26 @@ fieldset {
 	top: 0px;
 	display:none;
 }
+
+.category-text {
+	width: 746px;
+	float: left;
+	padding: 14px 20px;
+	margin: 40px auto 0 210px;
+}
+
+.category-text__title {
+	font-weight: normal;
+	margin: 0;
+	padding: 6px 0 16px;
+	font-size: 24px;
+	color: #e66100;
+}
+
+.category-text__text {
+	color: gray;
+}
+
 .nav,
 .nav ul,
 .bottom-menu .list{
