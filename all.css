@@ -438,7 +438,7 @@ fieldset {
 }
 
 .drop-list.drop-2.search-drop {
-	background: rgb(252, 252, 164) url(images/btn-select.png) no-repeat 93% 14px;
+	background: rgba(252, 252, 164, 0.55) url(images/btn-select.png) no-repeat 93% 14px;
 }
 
 .show-all-suppliers {
@@ -1391,6 +1391,7 @@ fieldset {
 }
 .product-list .pre-packing{
 	float: left;
+	width: 150px;
 }
 .product-list .block{
 	width: 300px;
@@ -1433,7 +1434,7 @@ fieldset {
 }
 .product-list .price-block{
 	float: left;
-	padding: 0 0 0 60px;
+	padding: 0 0 0 4px;
 }
 .product-list .producer{
 	display:block;
