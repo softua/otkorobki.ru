@@ -1012,19 +1012,21 @@ fieldset {
 }
 .partners-block{
 	overflow: hidden;
-	width: 100%;
-	padding: 0 0 16px;
-	margin-top: 40px;
+	width: 715px;
+	padding: 20px 0 16px 15px;
+	margin: 0 auto;
+	position: relative;
 }
 .partners-block .container{
 	overflow: hidden;
-	width: 1020px;
+	width: 715px;
 	margin: 0 auto;
 }
 .partners-block .partners-list{
 	overflow:hidden;
 	padding: 0;
 	list-style: none;
+	height: 103px;
 }
 .partners-block .partners-list li{
 	display:table;
@@ -1035,6 +1037,10 @@ fieldset {
 .partners-block .partners-list li a{
 	display:table-cell;
 	vertical-align: middle;
+}
+
+.partners-block .pagination-slider {
+	bottom: 5px;
 }
 .partners-block h3{
 	line-height:24px;
