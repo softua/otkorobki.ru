@@ -2997,9 +2997,10 @@ fieldset {
 }
 
 .header__contact {
+	display: block;
 	color: #f9791b;
 	font-family: "Open Sans", sans-serif;
-	font-size: 20px;
+	font-size: 19px;
 	font-weight: bold;
 	text-align: right;
 	padding-top: 15px;
@@ -3057,7 +3058,7 @@ fieldset {
 .header__menu__item {
 	float: left;
 	list-style: none;
-	color: #414141;
+	color: #424242;
 	font-family: "Open Sans", sans-serif;
 	font-size: 14px;
 	text-transform: uppercase;
@@ -3075,6 +3076,7 @@ fieldset {
 	-ms-transition: color 0.25s;
 	-o-transition: color 0.25s;
 	transition: color 0.25s;
+	color: inherit;
 }
 
 .header__menu__item > a:hover {
