@@ -70,7 +70,7 @@ fieldset {
 #header{
 	position:relative;
 	width:1000px;
-	padding:0 0 8px;
+	padding: 5px 0 8px 0;
 	margin: 0 auto;
 }
 #header .container{
@@ -146,7 +146,7 @@ fieldset {
 }
 .form-search{
 	padding-top: 7px;
-	margin: 0 20px 0 20px;
+	margin: 0 10px;
 	float: left;
 }
 .form-search input{
@@ -2971,9 +2971,9 @@ fieldset {
 }
 
 .header__cart {
-	float: left;
+	float: right;
 	padding: 5px 35px 0 0;
-	margin-left: 10px;
+	margin-right: 5px;
 	height: 40px;
 	background: url("images/cart-3.png") no-repeat center right;
 }
@@ -3064,6 +3064,16 @@ fieldset {
 	text-transform: uppercase;
 }
 
+.header__menu__item:after {
+	content: '';
+	display: inline-block;
+	width: 19px;
+	height: 37px;
+	background: url("images/header-menu-separator.png") no-repeat center;
+	float: left;
+	margin: 0 5px;
+}
+
 .header__menu__item:last-child:after {
 	display: none;
 }
@@ -3082,16 +3092,6 @@ fieldset {
 .header__menu__item > a:hover {
 	color: #e66100;
 	text-decoration: none;
-}
-
-.header__menu__item:after {
-	content: '';
-	display: inline-block;
-	width: 19px;
-	height: 37px;
-	background: url("images/header-menu-separator.png") no-repeat center;
-	float: left;
-	margin: 0 10px;
 }
 
 .header__my-price {
